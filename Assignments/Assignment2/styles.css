@@ -8,6 +8,7 @@ body {
     background-image: url('https://sockrubbah.github.io/Assignments/Assignment2/image3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 #main h1 {
