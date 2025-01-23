@@ -14,10 +14,14 @@ nav {
 }
 
 img {
-
+    display:block;
+    margin: 10px auto;
+    border: 3px lightgoldenrodyellow;
 }
 
-table {}
+table {
+    border-collapse: separate;
+}
 
 table th {
     background-color: lightskyblue;
