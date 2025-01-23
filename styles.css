@@ -10,7 +10,14 @@ body {
     background-color: #556B2F;
 
 }
-
+#assignments {
+    background-color:#556B2F;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    text-align: left;
+    
+}
 #assignments ol {
     padding-left: 10px;
 }
