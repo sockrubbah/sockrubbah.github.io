@@ -13,7 +13,7 @@ body {
 
 #assignments {
     background-color: #556B2F;
-    text-align: lcenter;
+    text-align: center;
     padding: 20px;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #assignments li a {
-    text-align: left; 
+    text-align: center; 
     padding: 10px;
     text-decoration: none;
     color: #B7CE90;
