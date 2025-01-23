@@ -23,7 +23,17 @@ body {
     margin: 5px;
 }
 
+#links a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
 #links a:hover {
+    text-decoration: none;
     background-color: goldenrod;
 }
 
@@ -32,7 +42,7 @@ h2 {
 }
 
 img {
-    display: block;
+    display: flex;
     justify-content: center;
     text-align: center;
     margin: 10px auto;
