@@ -9,7 +9,15 @@ body {
     padding: 10px;
     background-color: #556B2F;
     border: 10px solid #000000;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+#main h1 {
+    color: #008000;
+}
+
+#main h2 {
+    color: #008000;
 }
 
 #assignments {
@@ -17,11 +25,13 @@ body {
     text-align: center;
     padding: 20px;
     border: 10px solid #000000;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #assignments h3 {
     text-align: center;
+    color: #008000;
+    font-size: 16px;
 }
 
 #assignments ol {
