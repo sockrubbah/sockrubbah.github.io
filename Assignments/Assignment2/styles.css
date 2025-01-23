@@ -1,6 +1,7 @@
 body {
     background-color: #3A6EA5;
-
+    border: 10px gold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {}
