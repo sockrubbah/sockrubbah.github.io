@@ -8,5 +8,17 @@ body {
     text-align: center;
     padding: 10px;
     background-color: #556B2F;
+
+}
+
+#assignments {
+    background-color: #556B2F;
+    text-align: center;
+    padding: 10px;
     
+}
+#assignments li a {
+    text-decoration: none;
+    color: #FF8C00;
+
 }
