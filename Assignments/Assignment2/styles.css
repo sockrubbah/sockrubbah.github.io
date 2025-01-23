@@ -1,19 +1,26 @@
-body{
+body {
+    background-color: #3A6EA5;
 
 }
 
-header {
+header {}
 
+nav {}
+
+img {}
+
+table {}
+
+table th {
+    background-color: lightskyblue;
+    color: black;
+    padding: 10px;
+    text-align: center;
 }
 
-nav {
-
-}
-
-img {
-
-}
-
-table {
-    
+table td {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ddd;
 }
