@@ -1,7 +1,7 @@
 body {
-    font-family:'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium';
 
-    
+
 }
 
 #main {
@@ -10,17 +10,20 @@ body {
     background-color: #556B2F;
 
 }
+
 #assignments {
-    background-color:#556B2F;
-    margin: 20px auto;
+    background-color: #556B2F;
     text-align: left;
 }
+
 #assignments h3 {
     text-align: center;
 }
+
 #assignments ol {
     padding-left: 10px;
 }
+
 #assignments li {
     margin-bottom: 10px;
 }
@@ -30,7 +33,8 @@ body {
     padding: 10px;
     text-decoration: none;
 }
-#assignments li a:hover{
+
+#assignments li a:hover {
     text-decoration: none;
     color: #FF8C00;
 
