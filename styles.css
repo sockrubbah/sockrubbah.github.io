@@ -11,11 +11,18 @@ body {
 
 }
 
+#assignments ol {
+    padding-left: 10px;
+}
+#assignments li {
+    margin-bottom: 10px;
+}
+
 #assignments li a {
     background-color: #556B2F;
     text-align: left;
     padding: 10px;
-
+    text-decoration: none;
 }
 #assignments li a:hover{
     text-decoration: none;
