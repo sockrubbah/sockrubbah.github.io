@@ -34,6 +34,8 @@ h2 {
 
 img {
     display: inline-block;
+    justify-content: center;
+    text-align: center;
     margin: 10px auto;
     border: 3px lightgoldenrodyellow;
 }
