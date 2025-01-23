@@ -4,23 +4,28 @@ body {
     padding: 10px;
     font-family:'Segoe UI';
     margin: 0;
-    color:navy;
+    color: navy;
 }
 
-header {}
+header {
+    text-align: center
+}
 
 nav {
     display: flex;
+    justify-content: center;
+
 }
 
 img {
-    display:block;
+    display: block;
     margin: 10px auto;
     border: 3px lightgoldenrodyellow;
 }
 
 table {
     border-collapse: separate;
+    margin: 10px auto;
 }
 
 table th {
