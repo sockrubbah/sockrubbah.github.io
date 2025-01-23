@@ -31,8 +31,13 @@ body {
     margin-bottom: 10px;
 }
 
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
 #assignments li a {
-    text-align: center; 
+    text-align: center;
     padding: 10px;
     text-decoration: none;
     color: #B7CE90;
