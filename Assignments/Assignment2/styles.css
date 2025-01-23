@@ -6,7 +6,6 @@ body {
     margin: 0;
     color: navy;
     background-image: url('https://sockrubbah.github.io/Assignments/Assignment2/image3.jpg');
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -33,7 +32,7 @@ h2 {
 }
 
 img {
-    display: inline-block;
+    display: block;
     justify-content: center;
     text-align: center;
     margin: 10px auto;
