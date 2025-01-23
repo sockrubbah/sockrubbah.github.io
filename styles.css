@@ -8,13 +8,14 @@ body {
     text-align: center;
     padding: 10px;
     background-color: #556B2F;
-
+    border: 1px solid #000000;
 }
 
 #assignments {
     background-color: #556B2F;
     text-align: center;
     padding: 20px;
+    border: 1px solid #000000;
 }
 
 #assignments h3 {
