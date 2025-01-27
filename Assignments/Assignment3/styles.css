@@ -37,3 +37,16 @@ ul {
 .head h1 {
     text-align: center;
 }
+
+.ideas-main > .ideas-separate{
+margin: 10px;
+padding: 5px;
+}
+.ideas-separate {
+    background:darkcyan;
+}
+
+.idea-separate > h2, p {
+    margin: 5px;
+    font-size: 90%;
+}
