@@ -7,6 +7,16 @@ body {
 
 .title-headers {
 text-align: center;
+display: flex;
+justify-content: space-between;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .assignment-header {
@@ -14,9 +24,13 @@ text-align: center;
 }
 
 .assignment-sub {
-
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
 }
 
 .assignment h2 {
-    
+color: red;
 }
+
