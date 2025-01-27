@@ -2,14 +2,21 @@ body {
 
 }
 
-.flex-container {
-display: flex;
-flex-wrap:wrap;
-background-color: lightblue;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.bar > li{
-    display: flex;
+.bar a {
+    display: block;
+    padding: 10px;
+    background-color: lightcoral;
+    float: left;
+}
+
+.bar li{
+    display: inline;
     flex-wrap:wrap;
     background-color:lightcoral;
     border: 1px;
