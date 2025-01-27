@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
     justify-content: flex-start;
 }
@@ -22,7 +22,7 @@ body {
 
 .title-headers h2 {
     margin: 0;
-    flex: 2;
+    flex: 5;
     text-align: center;
 }
 
