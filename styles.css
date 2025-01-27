@@ -21,6 +21,7 @@ body {
     margin: 0;
     flex: 1;
     text-align: left;
+    font-size: large;
 }
 
 .title-headers h2 {
