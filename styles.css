@@ -22,13 +22,12 @@ body {
 
 .title-headers h2 {
     margin: 0;
-    flex: 5;
+    flex: 2;
     text-align: center;
 }
 
 footer {
     text-align: center;
-
 }
 
 .main {
