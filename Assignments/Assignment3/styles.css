@@ -1,6 +1,6 @@
 body {
-margin: 0;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -19,6 +19,7 @@ ul {
     text-decoration: none;
     background-color: lightcoral;
     float: center;
+    text-align: center;
 }
 
 .bar li {
@@ -39,19 +40,22 @@ ul {
     align-content: center;
 }
 
-.ideas-main > .ideas-separate{
-margin: 10px;
-padding: 5px;
+.ideas-main>.ideas-separate {
+    margin: 10px;
+    padding: 5px;
 }
+
 .ideas-separate {
     padding: 20px;
     margin: 10px;
     border-radius: 0px;
-    background:darkcyan;
-    
+    background: darkcyan;
+
 }
 
-.ideas-separate > h2, h3, p {
+.ideas-separate>h2,
+h3,
+p {
     margin: 5px;
     font-size: 90%;
 }
@@ -60,6 +64,6 @@ padding: 5px;
     align-content: right;
 }
 
-.ideas-separate h3 img{
+.ideas-separate h3 img {
     align-content: left;
 }
