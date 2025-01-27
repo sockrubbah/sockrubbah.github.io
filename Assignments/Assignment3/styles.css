@@ -1,0 +1,22 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkolivegreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-headers {
+text-align: center;
+}
+
+.assignment-header {
+    text-align: center;
+}
+
+.assignment-sub {
+
+}
+
+.assignment h2 {
+    
+}
