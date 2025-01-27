@@ -88,3 +88,37 @@ p {
     align-content: left;
     text-align:left;
 }
+
+.titles-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: spcae-between;
+    gap:15px;
+    margin-top: 20px;
+}
+
+.titles-single {
+    width: 16%;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: aquamarine;
+    display: felx;
+    flex-direction: column;
+}
+
+.titles-single h2 {
+    margin-top: 10px;
+}
+
+.titles-single img {
+    margin-top: 10px
+}
+
+.titles-single ul {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titles-single ul li {
+    margin-bottom: 10px;
+}
