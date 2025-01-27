@@ -1,6 +1,4 @@
-body {
-    
-}
+body {}
 
 ul {
     list-style-type: none;
@@ -17,7 +15,7 @@ ul {
 
 .bar li {
     display: inline;
-    flex-wrap:wrap;
-    background-color:lightcoral;
+    flex-wrap: nowrap;
+    background-color: lightcoral;
     border: 1px;
 }
