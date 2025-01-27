@@ -2,10 +2,15 @@ body {
 
 }
 
-.bar {
+.flex-container {
+display: flex;
+flex-wrap:wrap;
+background-color: lightblue;
+}
+
+.bar > li{
     display: flex;
     flex-wrap:wrap;
     background-color:lightcoral;
     border: 1px;
-    border-color: lightblue;
 }
