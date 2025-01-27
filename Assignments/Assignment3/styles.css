@@ -18,7 +18,7 @@ ul {
     color: white;
     text-decoration: none;
     background-color: lightcoral;
-    float: left;
+    float: center;
 }
 
 .bar li {
@@ -31,7 +31,7 @@ ul {
 }
 
 .main-content h1 {
-    text-align: center;
+    text-align: left;
 }
 
 .head h1 {
