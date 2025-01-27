@@ -1,21 +1,34 @@
-body {}
+body {
+
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .bar a {
     display: block;
     padding: 10px;
+    color: white;
+    text-decoration: none;
     background-color: lightcoral;
     float: left;
 }
 
 .bar li {
+    flex: 1;
     display: inline;
     flex-wrap: nowrap;
     background-color: lightcoral;
     border: 1px;
+    border-color: aquamarine;
 }
+
+.main-content h1 {
+    text-align: center;
+}
+
