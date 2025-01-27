@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    flex-direction:row;
+    flex-direction: column;
 }
 
 .title-headers h1 {
@@ -20,6 +20,11 @@ body {
 
 .title-headers h2 {
     flex: 2;
+}
+
+footer {
+    text-align: center;
+
 }
 
 .main {
@@ -85,4 +90,16 @@ body {
     background-color: lightblue;
     width: 300px;
     margin: 0 auto;
+}
+
+@media (max-width: 770px) {
+    .assignment-sub {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .assignment {
+        width: 100%;
+        max-width: 500px;
+    }
 }
