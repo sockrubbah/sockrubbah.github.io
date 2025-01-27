@@ -1,8 +1,12 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: darkolivegreen;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
 }
 
 .title-headers {
@@ -12,14 +16,15 @@ body {
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    gap: 10px;
 }
 
 .title-headers h1 {
-    flex: 1;
+    margin: 0;
 }
 
 .title-headers h2 {
-    flex: 2;
+    margin: 0;
 }
 
 footer {
@@ -59,8 +64,7 @@ footer {
 
 .assignment img {
     width: 100%;
-    margin: 0 auto;
-    object-fit: cover;
+    max-width: 300px;
     height: auto;
     border-radius: 8px;
 }
@@ -98,7 +102,9 @@ footer {
         gap: 15px;
     }
 
-    .assignment-1, .assignment-2, .assignment-3 {
+    .assignment-1,
+    .assignment-2,
+    .assignment-3 {
         width: 100%;
         max-width: 500px;
     }
