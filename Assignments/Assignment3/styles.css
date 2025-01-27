@@ -43,7 +43,7 @@ body {
 }
 
 .assignment img {
-    width: 100%;
+    width: calc(100%-20px);
     object-fit: cover;
     height: auto;
     border-radius: 1px;
