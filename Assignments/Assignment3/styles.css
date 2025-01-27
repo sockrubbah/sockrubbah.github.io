@@ -76,9 +76,13 @@ p {
 }
 
 .ideas-separate img {
-    align-content: right;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    align-self: center;
 }
 
 .ideas-separate h3 img {
     align-content: left;
+    text-align:left;
 }
