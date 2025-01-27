@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    flex-direction: column;
+    flex-direction:row;
 }
 
 .title-headers h1 {
@@ -58,10 +58,6 @@ body {
     object-fit: cover;
     height: auto;
     border-radius: 8px;
-}
-
-.assignment h2 {
-    color: red;
 }
 
 .assignment-1 {
