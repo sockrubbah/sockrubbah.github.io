@@ -119,13 +119,20 @@ p {
 
 .titles-single p {
     flex-grow: 1;
+    color: white;
 }
 
-.titles-single ul {
-    padding-left: 15px;
-    padding-right: 15px;
+.titles-links ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
 }
 
-.titles-single ul li {
-    margin-bottom: 10px;
+.titles-links ul li a{
+    color: white;
+    padding: 5px;
+    background-color: lightcoral;
+    display: block;
 }
