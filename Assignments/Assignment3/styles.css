@@ -92,20 +92,21 @@ p {
 .titles-main {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
     justify-content: space-between;
     gap: 15px;
     margin-top: 20px;
+    align-items: stretch;
 }
 
 .titles-single {
-    width: 16%;
+    flex: 1 1 calc(16%-15px);
     border: 1px solid black;
     padding: 15px;
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    flex: 1 1 16%;
+    box-sizing: border-box;
+    height: auto;
 }
 
 .titles-single h2 {
@@ -116,6 +117,10 @@ p {
     margin-top: 10px
 }
 
+.titles-single p {
+    flex-grow: 1;
+}
+
 .titles-single ul {
     padding-left: 15px;
     padding-right: 15px;
@@ -123,8 +128,4 @@ p {
 
 .titles-single ul li {
     margin-bottom: 10px;
-}
-
-.titles-single p {
-    flex-grow: 1;
 }
