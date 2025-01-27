@@ -50,7 +50,7 @@ ul {
     margin: 10px;
     border-radius: 0px;
     background: darkcyan;
-
+    margin-bottom: 15px;
 }
 
 .ideas-separate>h2,
@@ -58,6 +58,10 @@ h3,
 p {
     margin: 5px;
     font-size: 90%;
+}
+
+.ideas separate article {
+    margin-bottom: 15px;
 }
 
 .ideas-separate img {
