@@ -1,0 +1,11 @@
+body {
+
+}
+
+.bar {
+    display: flex;
+    flex-wrap:wrap;
+    background-color:lightcoral;
+    border: 1px;
+    border-color: lightblue;
+}
