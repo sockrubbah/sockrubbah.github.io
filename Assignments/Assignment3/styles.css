@@ -86,14 +86,15 @@ p {
 
 .ideas-separate h3 img {
     align-content: left;
-    text-align:left;
+    text-align: left;
 }
 
 .titles-main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: spcae-between;
-    gap:15px;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 15px;
     margin-top: 20px;
 }
 
@@ -104,6 +105,7 @@ p {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
+    flex: 1 1 16%;
 }
 
 .titles-single h2 {
@@ -121,4 +123,8 @@ p {
 
 .titles-single ul li {
     margin-bottom: 10px;
+}
+
+.titles-single p {
+    flex-grow: 1;
 }
