@@ -25,10 +25,6 @@ body {
     flex: 1;
 }
 
-#WebTitle {
-    text-align: center;
-}
-
 .main h2 {
     flex: 2;
     text-align: center
