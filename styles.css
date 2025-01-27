@@ -98,7 +98,7 @@ footer {
         gap: 15px;
     }
 
-    .assignment {
+    .assignment-1, .assignment-2, .assignment-3 {
         width: 100%;
         max-width: 500px;
     }
