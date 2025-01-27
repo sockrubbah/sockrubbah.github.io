@@ -8,9 +8,10 @@ body {
 .title-headers {
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
+    flex-direction: column;
 }
 
 .main {
@@ -46,7 +47,7 @@ body {
     width: calc(100%-20px);
     object-fit: cover;
     height: auto;
-    border-radius: 1px;
+    border-radius: 8px;
 }
 
 .assignment h2 {
