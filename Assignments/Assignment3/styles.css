@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 
 }
 
@@ -19,6 +20,15 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.main h1 {
+    flex: 1;
+}
+
+.main h2 {
+    flex: 2;
+    text-align: center
 }
 
 .assignment-header {
@@ -33,9 +43,10 @@ body {
 }
 
 .assignment img {
-width: 75%;
-object-fit: cover;
-height: 150px;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 1px;
 }
 
 .assignment h2 {
@@ -46,7 +57,7 @@ height: 150px;
     border: 1px solid;
     padding: 15px;
     text-align: center;
-    background-color:lightblue;
+    background-color: lightblue;
     width: 300px;
 }
 
@@ -54,7 +65,7 @@ height: 150px;
     border: 1px solid;
     padding: 15px;
     text-align: center;
-    background-color:lightblue;
+    background-color: lightblue;
     width: 300px;
 }
 
@@ -62,6 +73,6 @@ height: 150px;
     border: 1px solid;
     padding: 15px;
     text-align: center;
-    background-color:lightblue;
+    background-color: lightblue;
     width: 300px;
 }
