@@ -1,62 +1,78 @@
 body {
-    font-family: 'Franklin Gothic Medium';
-    color: #1F2711;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
 }
 
-#main {
+.title-headers {
     text-align: center;
-    padding: 10px;
-    background-color: #556B2F;
-    border: 5px solid #000000;
-    border-radius: 5px;
-}
-
-#main h1 {
-    color: #013f01;
-}
-
-#main h2 {
-    color: #013f01;
-}
-
-#assignments {
-    background-color: #556B2F;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    border: 5px solid #000000;
-    border-radius: 5px;
 }
 
-#assignments h3 {
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main h1 {
+    flex: 1;
+}
+
+.main h2 {
+    flex: 2;
+    text-align: center
+}
+
+.assignment-header {
     text-align: center;
-    color: #013f01;
-    font-size: 32px;
+    font-size:x-large
 }
 
-#assignments ol {
-    list-style-position: none;
-    padding-left: 0px;
+.assignment-sub {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.assignment img {
+    width: calc(100%-20px);
+    object-fit: cover;
+    height: auto;
+    border-radius: 1px;
+}
+
+.assignment h2 {
+    color: red;
+}
+
+.assignment-1 {
+    border: 1px solid;
+    padding: 15px;
     text-align: center;
+    background-color: lightblue;
+    width: 300px;
 }
 
-#assignments li {
-    margin-bottom: 10px;
-}
-
-ol {
-    list-style-type: none;
-    padding: 0;
-}
-
-#assignments li a {
+.assignment-2 {
+    border: 1px solid;
+    padding: 15px;
     text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    color: #B7CE90;
+    background-color: lightblue;
+    width: 300px;
 }
 
-#assignments li a:hover {
-    text-decoration: none;
-    color: #FF8C00;
-
+.assignment-3 {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+    background-color: lightblue;
+    width: 300px;
 }
