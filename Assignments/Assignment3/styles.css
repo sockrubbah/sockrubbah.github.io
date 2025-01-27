@@ -1,14 +1,16 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:darkolivegreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
     display: flex;
     flex-direction: column;
 }
 
 .title-headers {
-text-align: center;
-display: flex;
-justify-content: space-between;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .main {
@@ -24,13 +26,36 @@ justify-content: space-between;
 }
 
 .assignment-sub {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .assignment h2 {
-color: red;
+    color: red;
 }
 
+.assignment-1 {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+    background-color: darkgrey;
+    width: 300px;
+}
+
+.assignment-2 {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+    background-color: darkgrey;
+    width: 300px;
+}
+
+.assignment-3 {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+    background-color: darkgrey;
+    width: 300px;
+}
