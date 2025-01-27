@@ -1,5 +1,5 @@
 body {
-
+    
 }
 
 ul {
@@ -15,7 +15,7 @@ ul {
     float: left;
 }
 
-.bar li{
+.bar li {
     display: inline;
     flex-wrap:wrap;
     background-color:lightcoral;
