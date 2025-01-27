@@ -40,6 +40,13 @@ ul {
     align-content: center;
 }
 
+.ideas-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
 .ideas-main>.ideas-separate {
     margin: 10px;
     padding: 5px;
