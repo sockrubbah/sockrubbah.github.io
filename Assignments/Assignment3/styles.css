@@ -36,6 +36,7 @@ ul {
 
 .head h1 {
     text-align: center;
+    align-content: center;
 }
 
 .ideas-main > .ideas-separate{
@@ -43,10 +44,22 @@ margin: 10px;
 padding: 5px;
 }
 .ideas-separate {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 0px;
     background:darkcyan;
+    
 }
 
-.ideas-separate > h2, p {
+.ideas-separate > h2, h3, p {
     margin: 5px;
     font-size: 90%;
+}
+
+.ideas-separate img {
+    align-content: right;
+}
+
+.ideas-separate h3 img{
+    align-content: left;
 }
