@@ -85,21 +85,27 @@ p {
     background-color: cyan;
 }
 
-.ideas-separate article:last-child {
-    border-bottom: none;
+.ideas-separate:nth-child(2) {
+    background-color: lightcoral;
+    flex-direction: row-reverse; 
 }
 
-.ideas-separate h2 img {
+.ideas-separate:nth-child(2) img {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.ideas-separate img {
     max-width: 100%;
     height: auto;
+    margin-top: 10px;
     align-self: center;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .ideas-separate h3 img {
     align-content: left;
     text-align: left;
-    margin-right: auto;
 }
 
 .titles-main {
