@@ -88,7 +88,7 @@ p {
 
 .ideas-separate:nth-child(2) {
     background-color: lightcoral;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 
 .ideas-separate:nth-child(2) img {
@@ -161,4 +161,26 @@ p {
 .titles-links li {
     margin-bottom: 10px;
     color: white;
+}
+
+@media (max-width: 770px) {
+
+    .ideas-separate,
+    .titles-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ideas-separate article,
+    .titles-single {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .ideas-separate img,
+    .titles-single img {
+        width: 100%;
+        height: auto;
+    }
 }
