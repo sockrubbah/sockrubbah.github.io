@@ -4,6 +4,11 @@ body {
 
 }
 
+.Main-Title h1 {
+    text-align: center;
+    align-content: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -39,10 +44,7 @@ text-align: center;
     text-align: left;
 }
 
-head h1 {
-    text-align: center;
-    align-content: center;
-}
+
 
 .ideas-main {
     display: flex;
@@ -103,7 +105,6 @@ p {
 .titles-main {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
     margin-top: 20px;
     align-items: stretch;
     width: 100%;
@@ -152,4 +153,5 @@ padding: 0;
 
 .titles-links li {
     margin-bottom: 10px;
+    color: white;
 }
