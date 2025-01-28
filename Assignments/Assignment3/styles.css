@@ -77,9 +77,19 @@ p {
     font-size: 90%;
 }
 
+.ideas-main .ideas-separate article:nth-child(2) {
+    background-color: lightcoral;
+    display: FLEX;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+}
 
-
-
+.ideas-main .ideas-separate article:nth-child(2) img {
+    margin: 0;
+    max-width: 40%;
+    height: auto;
+}
 
 .ideas-separate article {
     margin-bottom: 15px;
@@ -149,14 +159,4 @@ p {
     padding: 5px;
     background-color: lightcoral;
     display: block;
-}
-
-@media (max-width: 770px) {
-    .titles-single {
-        flex: 1 1 100%;
-    }
-
-    .ideas-main {
-        flex-direction: column;
-    }
 }
