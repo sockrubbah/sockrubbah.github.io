@@ -13,7 +13,7 @@ ul {
 }
 
 footer {
-
+    text-align: center;
 }
 
 .bar a {
@@ -31,7 +31,7 @@ footer {
     display: inline;
     flex-wrap: nowrap;
     background-color: lightcoral;
-    border: 1px;
+    border: 5px;
     border-color: aquamarine;
 }
 
@@ -159,4 +159,14 @@ p {
     padding: 5px;
     background-color: lightcoral;
     display: block;
+}
+
+@media (max-width: 770px) {
+    .titles-single {
+        flex: 1 1 100%;
+    }
+
+    .ideas-main {
+        flex-direction: column;
+    }
 }
