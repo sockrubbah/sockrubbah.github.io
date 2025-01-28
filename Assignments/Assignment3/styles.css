@@ -74,7 +74,8 @@ p {
 
 .ideas-separate article {
     margin-bottom: 15px;
-    border: 5px;
+    padding: 10px;
+    border-bottom: 2px solid black;
 }
 
 .ideas-separate img {
