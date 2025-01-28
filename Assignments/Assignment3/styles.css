@@ -5,6 +5,7 @@ body {
 
 .Main-Title {
     text-align: center;
+    align-content: center;
 }
 
 ul {
@@ -17,6 +18,7 @@ ul {
 
 footer {
     text-align: center;
+    background-color: lightcoral;
 }
 
 .bar a {
@@ -25,26 +27,37 @@ footer {
     color: white;
     text-decoration: none;
     background-color: lightcoral;
-    text-align: center;  /* Center link inside the container */
+    float: center;
+    text-align: center;
 }
 
 .bar li {
     flex: 1;
     display: inline;
+    flex-wrap: nowrap;
     background-color: lightcoral;
-    border: 1px solid aquamarine;  /* Border should have solid color */
+    border: 1px;
+    border-color: aquamarine;
 }
 
 .main-content h1 {
     text-align: left;
 }
 
+
+
 .ideas-main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    color: white;
     justify-content: space-between;
     width: 100%;
+}
+
+.ideas-main>.ideas-separate {
+    margin: 10px;
+    padding: 5px;
 }
 
 .ideas-separate {
@@ -56,14 +69,18 @@ footer {
     flex-basis: 30%;
     box-sizing: border-box;
     margin-bottom: 15px;
+    gap: 20px;
 }
 
-.ideas-separate>h2, h3, p {
+.ideas-separate>h2,
+h3,
+p {
     margin: 5px;
     font-size: 90%;
 }
 
 .ideas-separate article {
+    margin-bottom: 15px;
     padding: 10px;
     box-sizing: border-box;
     background-color: cyan;
@@ -71,7 +88,12 @@ footer {
 
 .ideas-separate:nth-child(2) {
     background-color: lightcoral;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
+}
+
+.ideas-separate:nth-child(2) img {
+    margin-left: 10px;
+    margin-right: 0;
 }
 
 .ideas-separate img {
@@ -79,6 +101,12 @@ footer {
     height: auto;
     margin-top: 10px;
     align-self: center;
+    margin-left: auto;
+}
+
+.ideas-separate h3 img {
+    align-content: left;
+    text-align: left;
 }
 
 .titles-main {
@@ -88,6 +116,7 @@ footer {
     align-items: stretch;
     width: 100%;
     text-align: center;
+    color: white;
 }
 
 .titles-single {
@@ -97,10 +126,21 @@ footer {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    height: auto;
 }
 
 .titles-single h2 {
     margin-top: 10px;
+}
+
+.titles-single img {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.titles-single p {
+    flex-grow: 1;
+    color: white;
 }
 
 .titles-links {
