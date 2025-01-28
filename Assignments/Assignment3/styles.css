@@ -127,7 +127,8 @@ p {
 }
 
 .titles-single img {
-    margin-top: 10px
+    margin-top: 10px;
+    align-items: center;
 }
 
 .titles-single p {
