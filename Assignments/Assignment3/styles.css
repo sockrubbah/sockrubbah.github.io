@@ -16,6 +16,13 @@ footer {
     text-align: center;
 }
 
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
 .bar a {
     display: block;
     padding: 10px;
@@ -59,15 +66,14 @@ head h1 {
 }
 
 .ideas-separate {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 20px;
+    background-color: cyan;
+    flex: 1;
     margin: 10px;
-    border-radius: 1px;
-    color: white;
-    flex-grow: 1;
-    flex-basis: 30%;
     box-sizing: border-box;
-    margin-bottom: 15px;
-    gap: 20px;
 }
 
 .ideas-separate>h2,
