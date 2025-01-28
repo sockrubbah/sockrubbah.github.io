@@ -67,7 +67,6 @@ head h1 {
     flex-basis: 30%;
     box-sizing: border-box;
     margin-bottom: 15px;
-    border: 2px solid black;
     gap: 20px;
 }
 
@@ -78,10 +77,23 @@ p {
     font-size: 90%;
 }
 
+.ideas-separate article:nth-child(2) {
+    background-color: lightcoral;
+    display: FLEX;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+}
+
+.ideas-separate article:nth-child(2) img {
+    margin: 0;
+    max-width: 40%;
+    height: auto;
+}
+
 .ideas-separate article {
     margin-bottom: 15px;
     padding: 10px;
-    border-bottom: 2px solid black;
     box-sizing: border-box;
     background-color:cyan;
 }
@@ -113,7 +125,6 @@ p {
 
 .titles-single {
     flex: 1 1 calc(16%-15px);
-    border: 1px solid black;
     padding: 15px;
     background-color: aquamarine;
     display: flex;
