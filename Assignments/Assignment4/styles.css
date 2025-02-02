@@ -99,8 +99,12 @@ header {
     align-items: center;
     margin-top: 20px;
     width: 100%;
+    position: relative;
 }
 
+.showcase-image {
+    display: block;
+}
 .showcase-text {
     position: absolute;
     bottom: 10%;
