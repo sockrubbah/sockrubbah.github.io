@@ -1,0 +1,75 @@
+/*img {
+    max-width: 100%
+}*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers both the logo and the red bar beneath it */
+}
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+.college-header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.nav-gateways {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+.nav-gateways a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-secondary {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.nav-secondary a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.search-bar {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    width: 200px;
+}
