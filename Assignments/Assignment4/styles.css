@@ -53,11 +53,13 @@ header {
 }
 
 .college-header-bar {
+    display: flex;
     background-color: red;
     padding: 10px 20px;
 }
 
 .college-header {
+    flex: 2;
     color: white;
     text-align:left;
     padding: 10px 0;
@@ -89,4 +91,11 @@ header {
     padding: 5px;
     font-size: 14px;
     width: 200px;
+}
+
+.showcase-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
