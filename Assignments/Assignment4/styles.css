@@ -94,13 +94,17 @@ header {
 }
 
 .showcase-image {
+    position: relative;
+    width: 1110px;
+    height: 564px;
+    margin: 40px auto 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+}
+
+.showcase-image img {
     width: 100%;
-    position: relative;
-    margin: 0 auto; 
+    height: 100%;
     display: block;
 }
 
@@ -113,6 +117,6 @@ header {
     text-align: center;
     width: 40%;
     max-width: 400px;
-    border-left: 5px;
-    border-left-color: red;
+    border-left: 5px solid red;
+    z-index: 10;
 }
