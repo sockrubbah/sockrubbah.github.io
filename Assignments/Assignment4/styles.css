@@ -98,4 +98,19 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    width: 100%;
+}
+
+.showcase-text {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    background-color: white;
+    padding: 20px;
+    text-align: enter;
+    width: 40%;
+    max-width: 400px;
+    border-left: 5px;
+    border-left-color: red;
+    z-index: 10;
 }
