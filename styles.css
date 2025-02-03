@@ -127,8 +127,9 @@ iframe {
 }
 
 .project a {
+    justify-content: center;
+    margin: 0 auto;
     text-align: center;
-    margin: auto;
 }
 
 @media (max-width: 770px) {
