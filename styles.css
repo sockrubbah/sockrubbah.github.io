@@ -126,6 +126,11 @@ iframe {
     color: white;
 }
 
+.project a {
+    text-align: center;
+    margin: auto;
+}
+
 @media (max-width: 770px) {
     .assignment-sub {
         flex-direction: column;
@@ -133,6 +138,16 @@ iframe {
     }
 
     .assignment {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .project-sub {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project {
         width: 100%;
         max-width: 500px;
     }

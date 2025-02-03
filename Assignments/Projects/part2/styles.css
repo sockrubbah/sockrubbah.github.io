@@ -1,4 +1,5 @@
 iframe {
-    align-items: center;
+    text-align: center;
     margin: auto;
+    display: block;
 }
