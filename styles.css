@@ -81,6 +81,37 @@ footer {
     margin-bottom: 10px;
 }
 
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    margin: 20px 0;
+}
+
+.project-header {
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.project-sub {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+.project {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+    background-color: lightblue;
+    width: 300px;
+    margin: 0 auto;
+}
+
 @media (max-width: 770px) {
     .assignment-sub {
         flex-direction: column;
