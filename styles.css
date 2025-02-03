@@ -122,6 +122,10 @@ iframe {
     margin-bottom: 10px;
 }
 
+.project p {
+    color: white;
+}
+
 @media (max-width: 770px) {
     .assignment-sub {
         flex-direction: column;
