@@ -112,6 +112,13 @@ iframe {
     margin: 0 auto;
 }
 
+.project h2 {
+    font-size: large;
+    font-weight: bold;
+    color: darkolivegreen;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 770px) {
     .assignment-sub {
         flex-direction: column;
