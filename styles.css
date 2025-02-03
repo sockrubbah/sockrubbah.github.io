@@ -86,7 +86,8 @@ iframe {
     max-width: 600px;
     height: 300px;
     border: none;
-    margin: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .project-header {
@@ -132,6 +133,12 @@ iframe {
     text-align: center;
 }
 
+.wireframe-link {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
 @media (max-width: 770px) {
     .assignment-sub {
         flex-direction: column;
@@ -151,5 +158,13 @@ iframe {
     .project {
         width: 100%;
         max-width: 500px;
+    }
+
+    .wireframe-link {
+        margin-bottom: 15px;
+    }
+
+    iframe {
+        max-width: 100%;
     }
 }
