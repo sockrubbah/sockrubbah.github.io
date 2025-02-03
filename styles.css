@@ -93,6 +93,7 @@ iframe {
     text-align: center;
     font-size: xx-large;
     margin: 20px;
+    color: white;
 }
 
 .project-sub {
@@ -117,7 +118,7 @@ iframe {
 .project h2 {
     font-size: large;
     font-weight: bold;
-    color: darkolivegreen;
+    color: white;
     margin-bottom: 10px;
 }
 
