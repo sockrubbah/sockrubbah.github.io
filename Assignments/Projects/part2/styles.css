@@ -3,3 +3,7 @@ iframe {
     margin: auto;
     display: block;
 }
+
+body {
+    border: 1px;
+}
