@@ -12,18 +12,19 @@
             <h1>Assignment 5</h1>
             <h2>Introduction to JavaScript</h2>
         </header>
-        
+
         <script>
-            function ButtonClick_Test()
-            {
-            document.getElementById("result").value= ' your text here';
+            function helloFunction() {
+                document.getElementById("hello-column").onclick = () => {
+                    document.getElementById("hello-box").innerHTML += "<p>hello</p>";
+                };
             }
-            </script>
+        </script>
         <div class="content">
             <section class="column" id="hello-column">
                 <h3>Say Hello</h3>
                 <div class="hello-box"></div>
-                <input type="button" value="Click Here" name="no" onclick="ButtonClick_Test()"> 
+                <input type="button" value="Click Here" name="no" onclick="hellofunction()">
             </section>
 
             <section class="column">
