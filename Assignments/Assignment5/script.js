@@ -1,14 +1,14 @@
 window.onload = () => {
-    document.getElementById("hello-column").onclick = () => {
+    document.querySelector("#hello-column h3").onclick = () => {
         helloFunction();
-    }
+    };
 
     function helloFunction() {
-        document.getElementById(".hello-column h3").querySelector(".hello-box").innerHTML += "<p>hello</p>";
+        document.querySelector(".hello-box").innerHTML += "<p>hello</p>";
     }
 
     document.getElementById("colorPicker").oninput = (e) => {
-        document.querySelector(".star").style.color = e.target.value;
+        document.getElementById("star").setAttribute("fill", e.target.value);
     };
 
     function imageFunction() {
