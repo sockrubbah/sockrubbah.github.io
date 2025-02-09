@@ -11,11 +11,9 @@ window.onload = () => {
         document.querySelector(".star").style.color = e.target.value;
     };
 
-    function imageFunction() {
-        document.getElementById("toggleImage").onclick = () => {
-
-        }
-    }
-
-
+    document.getElementById("toggleImage").onclick = () => {
+        const images = ["Image1.webp", "Image2.webp"];
+        let imgElement = document.getElementById("toggleImage");
+        imgElement.src = imgElement.src.includes(images[0]) ? images[1] : images[0];
+    };
 }
