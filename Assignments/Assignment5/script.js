@@ -1,8 +1,7 @@
 window.onload = () => {
     function helloFunction() {
-        document.getElementById("hello-column").onclick = () => {
-            document.getElementById("hello-box").innerHTML += "<p>hello</p>";
-        };
+        document.getElementById("hello-here").innerHTML += "<p>hello</p>";
+        document.getElementById("hello-box").innerHTML += "<p>hello</p>";
     }
 
     function colorFunction() {
