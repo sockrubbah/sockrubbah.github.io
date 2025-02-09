@@ -16,4 +16,6 @@ window.onload = () => {
 
         }
     }
+
+    helloFunction();
 }
