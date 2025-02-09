@@ -6,8 +6,14 @@ window.onload = () => {
     }
 
     function colorFunction() {
-        document.getElementByClassName("colorPicker").addEventListener("input", (e) => {
+        document.getElementByClassName("colorPicker").oninput =(e) => {
             document.getElementById("star").style.color = e.target.value;
-        });
+        }
+    }
+
+    function imageFunction() {
+        document.getElementById("toggleImage").onclick = () {
+
+        }
     }
 }
