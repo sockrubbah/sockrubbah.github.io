@@ -17,10 +17,13 @@
             <section class="column" id="hello-column">
                 <h3>Say Hello</h3>
                 <div class="hello-box"></div>
+
+                <p id="demo" onclick="helloFunction()">Cicl here</p>
+
                 <script>
                     function helloFunction() {
-                        document.getElementByClassName("hello-box").style.color = "red";
-                        document.getElementByClassName("hello-box").innerHTML += "<p>hello</p>";
+                        document.getElementById("demo").innerHTML += "<p>hello</p>";
+                        document.getElementById("hello-box").innerHTML += "<p>hello</p>";
                     }
                 </script>
             </section>
