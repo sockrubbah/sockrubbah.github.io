@@ -1,4 +1,6 @@
 window.onload = () => {
+    helloFunction();
+    colorFunction();
     function helloFunction() {
         document.getElementById("hello-here").innerHTML += "<p>hello</p>";
         document.getElementById("hello-box").innerHTML += "<p>hello</p>";
@@ -16,6 +18,5 @@ window.onload = () => {
         }
     }
 
-    helloFunction();
-    colorFunction();
+
 }
