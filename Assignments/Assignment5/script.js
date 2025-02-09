@@ -8,7 +8,7 @@ window.onload = () => {
     }
 
     document.getElementById("colorPicker").oninput = (e) => {
-        document.getElementById("star").setAttribute("fill", e.target.value);
+        document.querySelector(".star").style.color = e.target.value;
     };
 
     function imageFunction() {
