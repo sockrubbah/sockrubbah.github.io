@@ -4,7 +4,7 @@ window.onload = () => {
     }
 
     function helloFunction() {
-        document.getElementById("hello-column").querySelector(".hello-box").innerHTML += "<p>hello</p>";
+        document.getElementById(".hello-column h3").querySelector(".hello-box").innerHTML += "<p>hello</p>";
     }
 
     document.getElementById("colorPicker").oninput = (e) => {
