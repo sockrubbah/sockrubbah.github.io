@@ -1,0 +1,36 @@
+body {
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.main {
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+header {
+    text-align: center;
+    color: teal;
+    padding: 10px;
+}
+
+.content {
+    display: felx;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: tan;
+}
+
+.star {
+    font-size: 50px;
+    display: block;
+    margin-top: 30px;
+}
