@@ -1,9 +1,10 @@
 window.onload = () => {
-    helloFunction();
-    colorFunction();
+    document.getElementById("hello-here").onclick = () => {
+        helloFunction();
+    }
+
     function helloFunction() {
-        document.getElementById("hello-here").innerHTML += "<p>hello</p>";
-        document.getElementById("hello-box").innerHTML += "<p>hello</p>";
+        document.getElementById("hello-column").innerHTML += "<p>hello</p>";
     }
 
     function colorFunction() {
