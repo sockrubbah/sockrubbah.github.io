@@ -18,4 +18,5 @@ window.onload = () => {
     }
 
     helloFunction();
+    colorFunction();
 }
