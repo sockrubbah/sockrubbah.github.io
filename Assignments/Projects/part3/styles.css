@@ -1,7 +1,7 @@
 :root {
-    --green: (#00722f);
-    --yellow: (#FFFF99);
-    --beige: (#A68A64);
+    --green: #00722f;
+    --yellow: #FFFF99;
+    --beige: #A68A64;
 }
 
 body {
@@ -20,9 +20,11 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    ;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 nav li {
