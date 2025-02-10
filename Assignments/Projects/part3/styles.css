@@ -156,6 +156,7 @@ img {
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .image-box {
@@ -179,6 +180,7 @@ img {
     cursor: pointer;
     font-weight: bold;
     border-radius: 5px;
+    align-items: center;
 }
 
 #post-description {
