@@ -15,6 +15,7 @@ body {
 nav {
     background: var(--beige);
     padding: 10px 0;
+    margin-bottom: 30px;
 }
 
 nav ul {
@@ -64,7 +65,7 @@ main {
 }
 
 img {
-    width: 400px;
+    width: 700px;
     height: auto;
     border: 2px solid black;
     margin: 0 auto;
