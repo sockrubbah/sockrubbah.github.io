@@ -118,7 +118,7 @@ img {
     font-weight: bold;
 }
 
-img {
+.box img {
     width: 100%;
     height: auto;
     margin-top: 10px;
