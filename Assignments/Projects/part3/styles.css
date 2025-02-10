@@ -146,7 +146,7 @@ img {
 
 .left-side {
     width: 60%;
-    background: yes;
+    background: var(--yellow);
     padding: 20px;
     height: 350px;
     border: 2px solid black;
@@ -155,6 +155,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
 }
 
 .image-box {
