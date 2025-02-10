@@ -28,6 +28,7 @@ nav ul {
 nav li {
     border: 2px solid black;
     padding: 8px 15px;
+    gap: 20px;
 }
 
 nav a {
@@ -53,12 +54,13 @@ main {
     background: var(--yellow);
     padding: 15px;
     border: 2px solid black;
-    width: 300px;
+    width: 200px;
+    text-align: center;
     margin-right: 20px;
 }
 
 img {
-    width: 300px;
+    width: 400px;
     height: auto;
     border: 2px solid black;
 }
