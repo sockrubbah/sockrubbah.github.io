@@ -145,22 +145,28 @@ img {
 }
 
 .left-side {
-    width: 50%;
+    width: 60%;
     background: yes;
-    padding: 15px;
+    padding: 20px;
+    height: 350px;
     border: 2px solid black;
     color: black;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .image-box {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
 #upload-image {
     padding: 5px;
+    width: 100%;
 }
 
 .confirm-image,
@@ -176,15 +182,17 @@ img {
 
 #post-description {
     width: 100%;
-    height: 100px;
+    height: 150px;
     margin-top: 10px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    font-size: 16px;
 }
 
 .right-side {
-    width: 50%;
+    width: 40%;
+    height: 350px;
     background: var(--yellow);
     padding: 15px;
     border: 2px solid black;
