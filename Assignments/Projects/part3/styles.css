@@ -22,7 +22,6 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    ;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -36,7 +35,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: var(--beige);
+    color: var(--yellow);
     font-weight: bold;
 }
 
