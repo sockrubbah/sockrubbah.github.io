@@ -1,4 +1,5 @@
-window.onload = () => {
+window.onload = () => { //From the video
+    //Learned queryselector from w3schools to figure out how to select a ceratin class
     document.querySelector("#hello-column h3").onclick = () => {
         helloFunction();
     };
@@ -14,6 +15,13 @@ window.onload = () => {
     document.querySelector(".column img").onclick = () => {
         const images = ["Image1.webp", "Image2.webp"];
         let imgElement = document.getElementById("toggleImage");
-        imgElement.src = imgElement.src.includes(images[0]) ? images[1] : images[0];
+        function toggleImage() {
+            if (isFirstImage) {
+                imgElement.src = images[1];
+            } else {
+                imgElement.src = images[0];
+            }
+            isFirstImage = !isFirstImage;
+        }
     };
 }
