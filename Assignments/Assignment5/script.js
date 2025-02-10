@@ -1,6 +1,6 @@
 window.onload = () => { //From the video
     //Learned queryselector from w3schools to figure out how to select certain classes
-    //Unsure why I couldn't get the clicking the box itself to print 'hello' so I put it to teh 'Say Hello'
+    //Unsure why I couldn't get the clicking the box itself to print 'hello' so I put it to the 'Say Hello'
     document.querySelector("#hello-column h3").onclick = () => {
         helloFunction();
     };
