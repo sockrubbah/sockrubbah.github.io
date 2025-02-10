@@ -106,7 +106,6 @@ img {
 }
 
 .box {
-    border: 2px solid black;
     text-align: center;
 }
 
@@ -120,4 +119,5 @@ img {
 .box img {
     width: 100%;
     height: auto;
+    align-items: center;
 }
