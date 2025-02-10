@@ -96,3 +96,31 @@ img {
     border: 2px solid black;
     margin: 0 auto;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.post-author {
+    background: grey;
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+}
