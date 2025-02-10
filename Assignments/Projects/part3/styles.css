@@ -115,8 +115,10 @@ img {
     color:white;
     padding: 10px;
     font-weight: bold;
-    margin: 0;
     width: 200px;
+    border-radius: 15px 15px 0px 0px;
+    align-items:center;
+    margin: auto;
 }
 
 .box img {
