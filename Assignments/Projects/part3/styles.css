@@ -28,7 +28,7 @@ nav ul {
 nav li {
     border: 2px solid black;
     padding: 8px 15px;
-    gap: 20px;
+    margin: 20px;
 }
 
 nav a {
@@ -57,10 +57,13 @@ main {
     width: 200px;
     text-align: center;
     margin-right: 20px;
+    position: absolute;
+    left: 20px;
 }
 
 img {
     width: 400px;
     height: auto;
     border: 2px solid black;
+    margin: 0 auto;
 }
