@@ -363,6 +363,9 @@ textarea {
     overflow: visible;
     border: 2px solid black;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .forum-posts-list {
@@ -393,6 +396,10 @@ textarea {
 
 .filter-box {
     margin-bottom: 20px;
+    padding: 15px;
+    background: var(--yellow);
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .filter-box label {
