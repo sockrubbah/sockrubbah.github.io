@@ -318,15 +318,6 @@ textarea {
     margin-bottom: 20px;
 }
 
-.post-box {
-    background: var(--green);
-    color: var(--white);
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    text-align: center;
-}
-
 .forum-box {
     display: flex;
     flex-direction: column;
