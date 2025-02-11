@@ -421,6 +421,7 @@ textarea {
     padding: 20px;
     border-radius: 10px;
     color: white;
+    height: auto;
 }
 
 .post-title {
