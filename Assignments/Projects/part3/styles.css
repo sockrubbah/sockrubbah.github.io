@@ -375,7 +375,7 @@ textarea {
     margin-bottom: 10px;
     border-radius: 5px;
     text-align: center;
-    width: 100%;
+    width: auto;
 }
 
 .forum-container .right-side {
@@ -415,8 +415,7 @@ textarea {
     border-radius: 10px;
     color: var(--white);
     height: auto;
-    width: 100%;
-    max-width: 100%;
+    width: auto;
     gap: 20px;
     align-items: center;
     text-align: center;
