@@ -283,12 +283,16 @@ textarea {
 }
 
 .right-side {
-    width: 55%;
+    width: 50%;
     background: var(--beige);
     padding: 20px;
     border: 2px solid black;
     color: black;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: visible;
 }
 
 .posts {
