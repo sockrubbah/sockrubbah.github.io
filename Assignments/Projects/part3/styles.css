@@ -422,9 +422,10 @@ textarea {
 }
 
 
-.post-author {
+.forum-container .post-author {
     font-style: italic;
     margin: 10px 0;
+    align-items: center;
 }
 
 .post-text {
