@@ -4,7 +4,6 @@
     --beige: #A68A64;
     --red: #FF0000;
     --orange: #FFA500;
-    --yellow: #FFFF00;
     --green: #008000;
     --blue: #0000FF;
 }
@@ -118,9 +117,8 @@ img {
     padding: 10px;
     font-weight: bold;
     width: 200px;
-    border-radius: 15px 15px 15px 15px;
-    align-items: center;
-    margin: auto;
+    border-radius: 15px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -128,7 +126,6 @@ img {
     width: 200px;
     height: 200px;
     height: auto;
-    align-items: center;
     display: block;
     margin: 0 auto;
     border-radius: 0 0 15px 15px;
@@ -343,7 +340,8 @@ textarea {
 .forum-container {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
     gap: 20px;
 }
 
@@ -353,6 +351,7 @@ textarea {
     text-align: center;
     margin-bottom: 15px;
     color: var(--yellow);
+    width: 100%;
 }
 
 .forum-container .left-side {
