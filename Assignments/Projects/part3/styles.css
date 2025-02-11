@@ -421,6 +421,7 @@ textarea {
     border-radius: 10px;
     color: white;
     height: auto;
+    align-items: center;
 }
 
 .post-title {
@@ -428,7 +429,7 @@ textarea {
     font-weight: bold;
 }
 
-.forum-container .post-author {
+.forum-container .right-side .post-author {
     font-style: italic;
     margin: 10px 0;
     align-items: center;
