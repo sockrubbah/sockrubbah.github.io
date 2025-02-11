@@ -320,7 +320,6 @@ textarea {
 
 .forum-box {
     display: flex;
-    flex-direction: column;
     gap: 15px;
 }
 
