@@ -4,8 +4,10 @@
     --beige: #A68A64;
     --red: #FF0000;
     --orange: #FFA500;
-    --green: #008000;
     --blue: #0000FF;
+    --dark-green: #008000; /* Added second green as a new variable */
+    --black: #000000;
+    --white: #FFFFFF;
 }
 
 body {
@@ -32,7 +34,7 @@ nav ul {
 }
 
 nav li {
-    border: 2px solid black;
+    border: 2px solid var(--black);
     padding: 8px 15px;
     margin: 20px;
 }
@@ -59,7 +61,7 @@ nav li:nth-child(5) {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
     font-weight: bold;
     display: block;
 }
@@ -80,19 +82,19 @@ main {
 .about {
     background: var(--yellow);
     padding: 15px;
-    border: 2px solid black;
+    border: 2px solid var(--black);
     width: 200px;
     text-align: center;
     margin-right: 20px;
     position: absolute;
     left: 20px;
-    color: black;
+    color: var(--black);
 }
 
 img {
     width: 700px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid var(--black);
     margin: 0 auto;
 }
 
@@ -113,7 +115,7 @@ img {
 
 .post-author {
     background: grey;
-    color: white;
+    color: var(--white);
     padding: 10px;
     font-weight: bold;
     width: 200px;
@@ -146,8 +148,8 @@ img {
     background: var(--yellow);
     padding: 20px;
     height: 350px;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid var(--black);
+    color: var(--black);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -171,7 +173,7 @@ img {
 .confirm-image,
 .confirm-text {
     background: var(--green);
-    color: white;
+    color: var(--white);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -184,7 +186,7 @@ img {
     width: 100%;
     height: 150px;
     margin-top: 10px;
-    border: 2px solid black;
+    border: 2px solid var(--black);
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
@@ -195,14 +197,14 @@ img {
     height: 350px;
     background: var(--yellow);
     padding: 15px;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid var(--black);
+    color: var(--black);
     border-radius: 10px;
 }
 
 .right-side h2 {
     text-align: center;
-    color: black;
+    color: var(--black);
 }
 
 .settings-box {
@@ -214,15 +216,15 @@ img {
 .right-side select {
     width: 100%;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid var(--black);
     border-radius: 5px;
-    background: white;
+    background: var(--white);
     font-weight: bold;
 }
 
 .create-post {
     background: var(--green);
-    color: white;
+    color: var(--white);
     padding: 10px;
     border: none;
     font-weight: bold;
@@ -243,8 +245,8 @@ img {
     width: 50%;
     background: var(--yellow);
     padding: 20px;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid var(--black);
+    color: var(--black);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -256,7 +258,7 @@ img {
 
 .change-profile-pic {
     background-color: var(--green);
-    color: white;
+    color: var(--white);
     padding: 10px 20px;
     border: none;
     font-weight: bold;
@@ -274,7 +276,7 @@ img {
 
 .profile-container h2 {
     text-align: center;
-    color: black;
+    color: var(--black);
     margin-bottom: 10px;
 }
 
@@ -282,14 +284,14 @@ textarea {
     width: 100%;
     height: 150px;
     margin-bottom: 10px;
-    border: 2px solid black;
+    border: 2px solid var(--black);
     border-radius: 5px;
     padding: 10px;
 }
 
 .edit-bio {
     background: var(--green);
-    color: white;
+    color: var(--white);
     padding: 10px;
     border: none;
     font-weight: bold;
@@ -301,8 +303,8 @@ textarea {
     width: 50%;
     background: var(--beige);
     padding: 20px;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid var(--black);
+    color: var(--black);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -318,7 +320,7 @@ textarea {
 
 .post-box {
     background: var(--green);
-    color: white;
+    color: var(--white);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -333,7 +335,7 @@ textarea {
 
 .forum-post {
     background: var(--green);
-    color: white;
+    color: var(--white);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -363,7 +365,7 @@ textarea {
     height: auto;
     border-radius: 10px;
     overflow: visible;
-    border: 2px solid black;
+    border: 2px solid var(--black);
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -378,7 +380,7 @@ textarea {
 
 .forum-post {
     background: var(--green);
-    color: white;
+    color: var(--white);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -390,7 +392,7 @@ textarea {
     padding: 20px;
     background: var(--yellow);
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid var(--black);
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -413,14 +415,14 @@ textarea {
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid var(--green);
-    background-color: white;
+    background-color: var(--white);
 }
 
 .post-box {
     background: var(--green);
     padding: 20px;
     border-radius: 10px;
-    color: white;
+    color: var(--white);
     height: auto;
     align-items: center;
 }
