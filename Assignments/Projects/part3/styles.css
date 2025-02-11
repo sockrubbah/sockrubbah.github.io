@@ -311,7 +311,8 @@ textarea {
     gap: 20px;
     overflow: visible;
     height: auto;
-    flex-grow: 1;
+    align-items: center;
+    text-align: center;
 }
 
 .posts {
@@ -424,6 +425,7 @@ textarea {
     gap: 20px;
     align-items: center;
     text-align: center;
+    align-content: center;
 }
 
 .post-title {
