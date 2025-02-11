@@ -341,7 +341,7 @@ textarea {
     display: flex;
     width: 100%;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 20px;
 }
 
