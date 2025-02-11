@@ -344,6 +344,7 @@ textarea {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .discussion-header {
@@ -398,8 +399,6 @@ textarea {
     margin-bottom: 20px;
     padding: 15px;
     background: var(--yellow);
-    border: 2px solid black;
-    border-radius: 10px;
 }
 
 .filter-box label {
@@ -429,7 +428,6 @@ textarea {
     font-weight: bold;
 }
 
-
 .forum-container .post-author {
     font-style: italic;
     margin: 10px 0;
@@ -438,4 +436,8 @@ textarea {
 
 .post-text {
     font-size: 16px;
+}
+
+.forum-container .left-side, .forum-container .right-side {
+    flex: 1;
 }
