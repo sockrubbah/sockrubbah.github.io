@@ -291,7 +291,6 @@ textarea {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    overflow: hidden;
     gap: 15px;
 }
 
@@ -312,7 +311,6 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    overflow: auto;
 }
 
 .forum-post {
@@ -323,5 +321,4 @@ textarea {
     text-align: center;
     height: auto;
     box-sizing: border-box;
-    overflow: hidden;
 }
