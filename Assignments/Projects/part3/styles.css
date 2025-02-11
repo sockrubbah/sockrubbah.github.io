@@ -313,7 +313,10 @@ textarea {
 .forum-post {
     background: var(--green);
     color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
+    min-height: 150px;
+    height: auto;
+    box-sizing: border-box;
 }
