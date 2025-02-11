@@ -293,6 +293,8 @@ textarea {
     flex-direction: column;
     gap: 20px;
     overflow: visible;
+    height: auto;
+    flex-grow: 1;
 }
 
 .posts {
