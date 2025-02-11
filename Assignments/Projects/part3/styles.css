@@ -144,7 +144,7 @@ img {
     padding: 20px;
 }
 
-.left-side {
+.post-container .left-side {
     width: 60%;
     background: var(--yellow);
     padding: 20px;
@@ -243,7 +243,7 @@ img {
 
 .profile-container .left-side {
     width: 50%;
-    background: yes;
+    background: var(--yellow);
     padding: 20px;
     border: 2px solid black;
     color: black;
@@ -253,7 +253,6 @@ img {
     overflow: visible;
     height: auto;
     flex-grow: 1;
-
 }
 
 .change-profile-pic {
@@ -338,4 +337,84 @@ textarea {
     padding: 15px;
     border-radius: 10px;
     text-align: center;
+}
+
+.forum-container {
+    display: flex;
+    width: 100%;
+}
+
+.forum-container .left-side {
+    width:35%;
+    background: var(--yellow);
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    overflow: visible;
+    border: 2px solid black;
+}
+
+.forum-posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.forum-post {
+    background: var(--green);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.forum-container .right-side {
+    width:60%;
+    padding: 20px;
+    background: var(--yellow);
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-box {
+    margin-bottom: 20px;
+}
+
+.filter-box label {
+    font-weight: bold;
+    display: block;
+}
+
+.filter-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--green);
+    background-color: white;
+}
+
+.post-box {
+    background: var(--green);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: blod;
+}
+
+
+.post-author {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.post-text {
+    font-size: 16px;
 }
