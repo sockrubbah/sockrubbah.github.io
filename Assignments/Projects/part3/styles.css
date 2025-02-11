@@ -247,7 +247,13 @@ img {
     padding: 20px;
     border: 2px solid black;
     color: black;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
+    overflow: visible;
+    height: auto;
+    flex-grow: 1;
+
 }
 
 .change-profile-pic {
