@@ -414,7 +414,9 @@ textarea {
     border-radius: 10px;
     color: var(--white);
     height: auto;
+    gap: 20px;
     align-items: center;
+    text-align: center;
 }
 
 .post-title {
