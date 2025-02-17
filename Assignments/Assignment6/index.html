@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Assignment 6 - JS Conditionals</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main-header">
+        <h1>Assignment 8</h1>
+        <h2>If Statements</h2>
+        <div class="large-menu">
+            <nav class="menu">
+                <ul>
+                    <li><button class="exercise1">Exercise 1</button></li>
+                    <div class="line"></div>
+                    <li><button class="exercise2">Exercise 2</button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div hidden class="small-menu">
+        <button id="arrow-button">&#9662;</button>
+        <div class="dropdown">
+            <button class="exercise1">Exercise 1</button>
+            <button class="exercise2">Exercise 2</button>
+        </div>
+    </div>
+
+    <div class="exercise-container" style="display: none;">
+        <div class="exercises">
+            <div class="traveling-exercise" style="display: none;">
+                <h3>Travelling</h3>
+                <p>Enter your mode of Transportation</p>
+                <input type="text" id="transportInput" oninput="showTransportImage()">
+                <div id="transportImageContainer"></div>
+            </div>
+
+            <div class="picture-exercise" style="display: none;">
+                <h3>Color My Hearts</h3>
+                <div class="options">
+                    <button onclick="changeColor('red')">Red</button>
+                    <button onclick="changeColor('green')">Green</button>
+                    <button onclick="changeColor('blue')">Blue</button>
+                </div>
+                <div id="heart">♥</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    @sbangura.com
+</footer>
+
+</html>
