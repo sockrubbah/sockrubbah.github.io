@@ -3,6 +3,7 @@ body {
     align-content: center;
     text-align: center;
     align-items: center;
+    background-color: teal;
 }
 
 body .exercise-container {
