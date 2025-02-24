@@ -48,9 +48,9 @@ window.onload = () => {
             } else {
                 clearInterval(climbing);
             }
-        }, 200);
+        }, 200); // seconds
     };
 
-    drawButton.addEventListener("click", drawStairs);
-    climbButton.addEventListener("click", climbStairs);
+    drawButton.onclick = drawStairs;
+    climbButton.onclick = climbStairs;
 };
