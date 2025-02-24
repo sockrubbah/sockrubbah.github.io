@@ -42,7 +42,7 @@ window.onload = () => {
         let climbing = setInterval(() => {
             if (step < totalSteps) {
                 stickFigure.style.bottom = (stickFigureStartPosition + step * 20) + "px";
-                stickFigure.src = step % 2 === 0 ? "left.png" : "right.png"; 
+                stickFigure.src = step % 2 === 0 ? "left.png" : "right.png";
 
                 step++;
             } else {
