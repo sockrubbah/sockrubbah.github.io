@@ -685,13 +685,20 @@ textarea {
     }
 
     .home-page .about {
+        position: fixed;
+        bottom: 0;
+        left: 0;
         width: 100%;
-        margin-right: 0;
-        margin-top: 10px;
-        position: relative;
+        padding: 10px 20px;
+        text-align: center;
+        z-index: 1000;
     }
 
     .grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .right-side {
+        margin-top: 20px;
     }
 }
