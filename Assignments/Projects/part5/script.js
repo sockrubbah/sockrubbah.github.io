@@ -16,7 +16,6 @@ window.onload = () => {
     document.addEventListener("click", function(event) {
         if (!menuButton.contains(event.target) && !navMenu.contains(event.target)) {
             navMenu.classList.remove("active");
-            aboutSection.style.display = "block";
         }
     });
 };

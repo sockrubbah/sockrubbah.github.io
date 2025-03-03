@@ -21,7 +21,6 @@ body {
 .navbar {
     background: var(--beige);
     padding: 10px 0;
-    margin-bottom: 30px;
 }
 
 nav ul {
@@ -68,7 +67,6 @@ nav a {
 
 header {
     text-align: center;
-    margin: 20px;
     color: var(--yellow);
 }
 
@@ -86,7 +84,7 @@ main {
     width: 200px;
     text-align: center;
     margin-right: 20px;
-    position: absolute;
+    position: fixed;
     left: 20px;
     color: var(--black);
 }
@@ -300,18 +298,6 @@ h3 {
     font-size: 16px;
 }
 
-.right-side {
-    width: 40%;
-    height: 350px;
-    background: var(--yellow);
-    padding: 15px;
-    border: 2px solid var(--black);
-    color: var(--black);
-    border-radius: 10px;
-    align-content: center;
-    align-items: center;
-}
-
 .right-side h2 {
     text-align: center;
     color: var(--black);
@@ -424,6 +410,7 @@ textarea {
     height: auto;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .posts {
@@ -570,7 +557,7 @@ textarea {
     text-align: center;
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     body {
         font-size: 16px;
         padding: 10px;
@@ -583,6 +570,7 @@ textarea {
         text-align: center;
         align-items: center;
         width: 100%;
+        margin-top: 50px;
     }
 
     nav ul {
@@ -606,7 +594,7 @@ textarea {
 
     #menu-toggle {
         display: block;
-        height: 50px;
+        height: 30px;
         background-color: var(--yellow);
         border: none;
         position: fixed;
@@ -616,6 +604,7 @@ textarea {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        margin-bottom: 20px;
         text-align: center;
     }
 
@@ -684,21 +673,31 @@ textarea {
         grid-template-columns: 1fr;
     }
 
-    .home-page .about {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 10px 20px;
-        text-align: center;
-        z-index: 1000;
-    }
-
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-top: 20px;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .right-side .trending {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .left-side {
+        margin: 0 auto;
+    }
+    .about {
+        display: none;
     }
 }
