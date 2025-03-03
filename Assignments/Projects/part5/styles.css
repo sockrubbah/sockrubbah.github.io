@@ -181,7 +181,7 @@ img {
     justify-content: space-between;
     align-items: flex-start;
     max-width: 900px;
-    margin: auto;
+    margin: 0 auto;
     gap: 20px;
     padding: 20px;
 }
@@ -193,6 +193,7 @@ img {
 }
 
 .post-description {
+    margin: 0 auto;
     background: var(--beige);
     padding: 5px;
     border-radius: 3px;
@@ -697,7 +698,20 @@ textarea {
     .left-side {
         margin: 0 auto;
     }
+
     .about {
         display: none;
+    }
+
+    .post-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 900px;
+        margin: 0 auto;
+        gap: 20px;
+        padding: 20px;
     }
 }
