@@ -1,6 +1,6 @@
 window.onload = () => {
     setupMenuToggle();
-    fetchForumPosts();
+    getForumPosts();
 };
 
 const setupMenuToggle = () => {
