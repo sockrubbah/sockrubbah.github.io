@@ -1,6 +1,7 @@
 window.onload = () => {
     setupMenuToggle();
     
+    // checks if the current page is forum, since there's multiple boxes that utilize the .right-side
     if (window.location.pathname.includes("forum.html")) {
         getForumPosts();
     }
