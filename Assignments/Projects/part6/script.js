@@ -1,6 +1,9 @@
 window.onload = () => {
     setupMenuToggle();
-    getForumPosts();
+    
+    if (window.location.pathname.includes("forum.html")) {
+        getForumPosts();
+    }
 };
 
 const setupMenuToggle = () => {
@@ -54,6 +57,7 @@ const displayPosts = (posts) => {
         const postBox = document.createElement("div");
         postBox.classList.add("post-box");
 
+        // follows the html layout of the old forum.html post-box
         postBox.innerHTML = `
             <h2 class="post-title">${post.title}</h2>
             <p class="post-author">Author: ${post.author}</p>
