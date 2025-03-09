@@ -254,7 +254,7 @@ h3 {
 }
 
 .post-container .left-side {
-    width: 60%;
+    width: 65%;
     background: var(--yellow);
     padding: 20px;
     height: 350px;
@@ -401,7 +401,7 @@ textarea {
 }
 
 .right-side {
-    width: 50%;
+    width: 40%;
     background: var(--beige);
     padding: 20px;
     border: 2px solid var(--black);
@@ -532,7 +532,6 @@ textarea {
 
 .forum-container .right-side .post-author {
     font-style: italic;
-    margin: 10px 0;
     align-items: center;
 }
 
@@ -654,8 +653,6 @@ textarea {
     .right-side {
         width: 100%;
         height: auto;
-        max-width: 100%;
-
     }
 
     .profile-page .about {
@@ -720,7 +717,7 @@ textarea {
         justify-content: center;
         justify-content: space-between;
         align-items: flex-start;
-        max-width: 900px;
+        max-width: 100%;
         margin: 0 auto;
         gap: 20px;
         padding: 20px;

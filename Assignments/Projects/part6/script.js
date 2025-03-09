@@ -40,8 +40,8 @@ const getForumPosts = async () => {
 };
 
 const displayPosts = (posts) => {
-    const forumContainer = document.querySelector(".right-side");
-    const postList = document.querySelector(".forum-posts-list");
+    const forumContainer = document.querySelector(".right-side"); // right side of forum page
+    const postList = document.querySelector(".forum-posts-list"); // left side of forum page
 
     forumContainer.innerHTML = "";
     postList.innerHTML = "";
