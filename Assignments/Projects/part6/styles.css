@@ -426,7 +426,7 @@ textarea {
 
 .forum-box {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .forum-container {
@@ -435,7 +435,6 @@ textarea {
     max-width: 100%;
     flex-direction: wrap;
     justify-content: space-between;
-    gap: 10px;
     align-content: center;
 }
 
@@ -655,6 +654,8 @@ textarea {
     .right-side {
         width: 100%;
         height: auto;
+        max-width: 100%;
+
     }
 
     .profile-page .about {
