@@ -16,6 +16,7 @@ body {
     color: var(--yellow);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -433,7 +434,7 @@ textarea {
     max-width: 100%;
     flex-direction: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     align-content: center;
 }
 
@@ -447,12 +448,12 @@ textarea {
 }
 
 .forum-container .left-side {
-    width: 30%;
+    width: 100%;
     background: var(--yellow);
-    padding: 20px;
+    padding: 10px;
     height: auto;
     border-radius: 10px;
-    overflow: visible;
+    overflow: hidden;
     border: 2px solid var(--black);
     margin: 20px;
     display: flex;
@@ -479,14 +480,14 @@ textarea {
 }
 
 .forum-container .right-side {
-    width: 50%;
+    width: 100%;
     padding: 20px;
     background: var(--yellow);
     border-radius: 10px;
     border: 2px solid var(--black);
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 10px;
     align-content: center;
 }
 
@@ -644,13 +645,13 @@ textarea {
         height: auto;
     }
 
-    .profile-page .profile-container {
+    .profile-container {
         flex-direction: column;
         gap: 10px;
     }
 
-    .profile-page .left-side,
-    .profile-page .right-side {
+    .left-side,
+    .right-side {
         width: 100%;
         height: auto;
     }
@@ -660,15 +661,21 @@ textarea {
         width: 100%;
     }
 
-    .forum-page .forum-container {
-        flex-direction: column;
-        align-items: center;
+    .forum-container {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .forum-page .post-container .left-side,
-    .forum-page .post-container .right-side {
-        width: 100%;
-        margin: 0 0 20px 0;
+    .forum-container .right-side {
+        margin: 0 auto;
+    }
+
+    .forum-container .left-side {
+        margin: 0 auto;
     }
 
     .home-page .grid {
