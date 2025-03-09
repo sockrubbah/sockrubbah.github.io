@@ -41,24 +41,21 @@ const getForumPosts = async () => {
 
 const displayPosts = (posts) => {
     const forumContainer = document.querySelector(".right-side");
+    const postList = document.querySelector(".forum-posts-list");
 
-    const existingPosts = Array.from(forumContainer.children).map(post => ({
-        title: post.querySelector(".post-title")?.textContent.trim() || "Untitled",
-        author: post.querySelector(".post-author")?.textContent.replace("Author: ", "").trim() || "Unknown",
-        content: post.querySelector(".post-text p")?.textContent.trim() || ""
-    }));
-
-    // combine all posts
-    const allPosts = [...existingPosts, ...posts];
-
-    // clear
     forumContainer.innerHTML = "";
+    postList.innerHTML = "";
 
-    allPosts.forEach(post => {
+    posts.forEach(post => {
+        const postTitleItem = document.createElement("li");
+        postTitleItem.classList.add("forum-post");
+        postTitleItem.textContent = post.title;
+        postList.appendChild(postTitleItem);
+
         const postBox = document.createElement("div");
         postBox.classList.add("post-box");
 
-        // follows the html layout of the old forum.html post-box
+        // follows old layout of forum html
         postBox.innerHTML = `
             <h2 class="post-title">${post.title}</h2>
             <p class="post-author">Author: ${post.author}</p>
