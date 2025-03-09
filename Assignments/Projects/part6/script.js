@@ -31,7 +31,7 @@ const setupMenuToggle = () => {
 
 const getForumPosts = async () => {
     try {
-        const response = await fetch("https://sockrubbah.github.io/Assignments/Projects/part6/forum.json");
+        const response = await fetch("https://sockrubbah.github.io/Assignments/Projects/part6/json/forum.json");
         const posts = await response.json();
         displayPosts(posts);
     } catch (error) {
