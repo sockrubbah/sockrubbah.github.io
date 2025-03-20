@@ -72,6 +72,9 @@ footer {
     background-color: lightblue;
     width: 300px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .assignment h2 {
