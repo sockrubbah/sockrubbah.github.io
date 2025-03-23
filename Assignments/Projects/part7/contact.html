@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <button id="menu-toggle">Click To Navigate Sections</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="post.html">Post</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <section class="left-side">
+            <h2>Contact Us</h2>
+            <form method="POST" id="form">
+                <input type="hidden" name="access_key" value="891af433-d694-40e6-b7e6-3ab5be8e675c">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <button type="submit">Submit Form</button>
+                <div id="result"></div>
+            </form>
+        </section>
+
+        <section class="right-side">
+            <h3>Locations To Check Out</h3>
+            <iframe id="location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.3717626952225!2d-81.07597082369728!3d34.00866712002883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a3558f7221af%3A0x5194361d1b5e0bb8!2sRiverbanks%20Zoo%20%26%20Garden!5e0!3m2!1sen!2sus!4v1742772551116!5m2!1sen!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </section>
+</body>
+
+<script src="script.js"></script>
+
+</html>

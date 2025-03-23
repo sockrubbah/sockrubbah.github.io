@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project Part 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <button id="menu-toggle">Click To Navigate Sections</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="post.html">Post</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="forum.html">Forum</a></li>
+            </ul>
+        </nav>
+        <h1>My Profile</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="browse.html">Browse</a></li>
+            <li><a href="post.html">Post</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="forum.html">Forum</a></li>
+        </ul>
+    </nav>
+
+    <main class="profile-container">
+        <section class="left-side">
+            <div class="profile-image">
+                <img src="images/1000064641.jpg" alt="Profile Pic">
+            </div>
+            <input type="file" id="upload-image">
+            <button class="change-profile-pic">Change Profile Picture</button>
+            <h2>Bio</h2>
+            <textarea id="bio-text"
+                placeholder="I'm FernFury, an adventurer at heart who loves exploring nature and discovering hidden gems around the world. Whether I'm hiking through forests or immersing myself in new cultures, I'm always chasing the next adventure. Join me as I embrace the journey and share the beauty I find along the way."></textarea>
+            <button class="edit-bio">Edit Bio</button>
+        </section>
+
+        <section class="right-side">
+            <h2>Posts</h2>
+            <div class="posts">
+                <a href="postexample.html" class="post-box-link">
+                    <div class="post-box">Post 1</div>
+                </a>
+                <div class="post-box">Post 2</div>
+                <div class="post-box">Post 3</div>
+            </div>
+
+            <h2>Forum Posts</h2>
+            <div class="forum-box">
+                <div class="forum-post">What’s the Most Fascinating Plant You’ve Encountered?</div>
+                <div class="forum-post">Small Ways to Help the Environment in Your Daily Life
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
