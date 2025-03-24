@@ -1,7 +1,8 @@
 window.onload = () => {
     setupMenuToggle();
+    verifyContactForm();
 
-    // checks if the current page is forum, since there's multiple boxes that utilize the .right-side
+    // checks if the current page is forum, since there are multiple boxes that utilize the .right-side
     if (window.location.pathname.includes("forum.html")) {
         getForumPosts();
     }
@@ -55,7 +56,6 @@ const displayPosts = (posts) => {
         const postBox = document.createElement("div");
         postBox.classList.add("post-box");
 
-        // follows old layout of forum html
         postBox.innerHTML = `
             <h2 class="post-title">${post.title}</h2>
             <p class="post-author">Author: ${post.author}</p>
@@ -65,5 +65,39 @@ const displayPosts = (posts) => {
         `;
 
         forumContainer.appendChild(postBox);
+    });
+};
+
+const verifyContactForm = () => {
+    const form = document.getElementById("contact-form");
+    const resultDiv = document.getElementById("form-result");
+
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault(); // prevents the form from submitting
+
+        if (!form.checkValidity()) {
+            resultDiv.innerHTML = "<p style='color: red;'>Please fill in all fields correctly.</p>";
+            return; // checks if all sections were filled
+        }
+
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData
+            });
+
+            const data = await response.json(); // checking from the web3forms website
+
+            if (data.success) {
+                resultDiv.innerHTML = "<p style='color: white;'> Message sent successfully!</p>";
+                form.reset(); // resets the form without reloading page
+            } else {
+                resultDiv.innerHTML = "<p style='color: red;'> Error: Message was unable to be sent.</p>";
+            }
+        } catch (error) {
+            resultDiv.innerHTML = "<p style='color: red;' >Network error, try again later.</p>";
+        }
     });
 };
