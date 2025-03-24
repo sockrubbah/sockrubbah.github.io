@@ -20,6 +20,21 @@ body {
     width: 100%;
 }
 
+footer {
+    margin-top: 20px;
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 15px 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--dark-green);
+    font-weight: bold;
+}
 .navbar {
     background: var(--beige);
     padding: 10px 0;
@@ -559,43 +574,13 @@ textarea {
     text-align: center;
 }
 
-.info-box {
-    background: var(--beige);
-    padding: 15px;
-    border: 2px solid var(--black);
-    border-radius: 10px;
-    margin-bottom: 15px;
+.contact-container {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.info-box label {
-    font-weight: bold;
-    color: var(--black);
-}
-
-.info-box input,
-.info-box textarea,
-.info-box select {
-    width: 100%;
-    padding: 8px;
-    border: 2px solid var(--black);
-    border-radius: 5px;
-    background: var(--white);
-    color: var(--black);
-    font-size: 16px;
-}
-
-.info-box button {
-    background: var(--green);
-    color: var(--white);
-    padding: 10px;
-    border: none;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 50px auto;
 }
 
 @media screen and (max-width: 770px) {
