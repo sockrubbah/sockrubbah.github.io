@@ -35,6 +35,7 @@ footer a {
     color: var(--dark-green);
     font-weight: bold;
 }
+
 .navbar {
     background: var(--beige);
     padding: 10px 0;
