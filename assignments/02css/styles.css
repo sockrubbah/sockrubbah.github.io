@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
+    text-align: center;
 }
 
 div {
@@ -9,7 +10,12 @@ div {
     border-radius: 10px;
 }
 
-h1 h2 {
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+h2 {
     text-align: center;
     color: blueviolet;
 }
@@ -18,7 +24,6 @@ img {
     display: block;
     border: 3px solid #000;
     margin: 10px auto;
-    padding: 5px;
     border-radius: 10px;
 }
 
