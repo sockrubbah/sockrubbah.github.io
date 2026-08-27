@@ -1,15 +1,40 @@
 body {
-
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
 main {
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 20px;
 
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color:blueviolet;
 }
 
 footer {
     text-align: center;
+    padding: 10px;
+    color: black;
 }
 
 h1 {
     text-align: center;
+}
+
+.main-section li {
+    margin: 10px;
+}
+
+.main-section a {
+    color: blue;
+    text-decoration: none;
+
 }
