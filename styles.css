@@ -37,6 +37,8 @@ main h2 {
 
 main li {
     margin: 10px;
+    padding: 20px white;
+    text-decoration: none;
 }
 
 main li a {
