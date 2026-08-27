@@ -40,6 +40,8 @@ main li {
     padding: 20px white;
     text-decoration: none;
     font-size: 25px;
+    background-color: white;
+    font-family: comic sans ms;
 }
 
 main li a {
