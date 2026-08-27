@@ -32,6 +32,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     background-color: rgb(158, 209, 253);
+    border-radius: 10px;
 }
 
 th,

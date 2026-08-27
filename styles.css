@@ -37,11 +37,14 @@ main h2 {
 
 main li {
     margin: 10px;
-    padding: 20px white;
+    padding: 30px;
     text-decoration: none;
     font-size: 25px;
     background-color: white;
     font-family: comic sans ms;
+    border-radius: 10px;
+    margin-left: 20px;
+
 }
 
 main li a {
