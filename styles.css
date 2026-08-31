@@ -1,57 +1,114 @@
 body {
-    background-color: aquamarine;
+    background-color: indigo;
     font-family: Arial, sans-serif;
     padding: 20px;
 }
 
-main {
+.assignments {
     margin: auto;
-    background-color: blanchedalmond;
     padding: 20px;
     border-radius: 10px;
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 header {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    color: blueviolet;
+    color: magenta;
+}
+
+.name {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 24px;
+    color: palegoldenrod;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    color: black;
+    position: absolute;
+    color: palegoldenrod;
+    bottom: 5px;
+    left: 15px;
+    font-size: 24px;
 }
 
-h1 {
+h1{
     text-align: center;
 }
 
-main h2 {
+h3 {
+    text-align: center;
+    color: palegoldenrod;
+    font-size: 30px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.assignment {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: palegoldenrod;
+}
+
+.assignment h2 {
     text-align: center;
     color: blueviolet;
-
 }
 
-main li {
-    margin: 10px;
-    padding: 30px;
-    text-decoration: none;
-    font-size: 25px;
-    background-color: white;
-    font-family: comic sans ms;
-    border-radius: 10px;
-    margin-left: 20px;
-
+.assignment img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
 }
 
-main li a {
-    color: blue;
-    text-decoration: none;
-
+.assignment p {
+    text-align: center;
 }
-main ul {
-    list-style-type: none;
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        width: 100%;
+    }
+    .assignments {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .assignment {
+        width: 80%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .assignment img {
+        height: auto;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header .name {
+        position: static;
+        text-align: center;
+    }
 }
