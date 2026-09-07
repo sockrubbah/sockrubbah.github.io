@@ -5,11 +5,7 @@
     <title>Recreate CSS Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home,menu,search">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -26,18 +22,32 @@
                         <li><a href="#">Give</a></li>
                         <li><a href="#">Giveaway</a></li>
                     </ul>
-                    <span class="material-symbols-outlined">
-                        menu
-                    </span>
-                    <span class="material-symbols-outlined">
-                        home
-                    </span>
-            </div>
-            <a href="#">Floyd School of Medicine</a>
-        </header>
+                </nav>
 
+            </div>
+            <div id="logos">
+                <div class="mobile-top-row">
+                    <img src="https://picsum.photos/200/80" alt="USC Logo">
+                    <div class="mobile-icons">
+                        <span class="material-symbols-outlined">search</span>
+                        <span class="material-symbols-outlined">menu</span>
+                    </div>
+                </div>
+                <a href="#" class="school-title">Floyd School of Medicine</a>
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="#">EDUCATION</a></li>
+                        <li><a href="#">RESEARCH</a></li>
+                        <li><a href="#">CENTERS AND INSTITUTES</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <div id="background-image">
-            <img src="placeholder.jpg" alt="Placeholder Image">
+            <img src="https://picsum.photos/200/300" alt="Placeholder Image">
         </div>
         <div id="text-section">
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem
@@ -47,7 +57,7 @@
                 conubia nostra inceptos himenaeos.></p>
         </div>
         <div id="background-image">
-            <img src="placeholder.jpg" alt="Placeholder Image">
+            <img src="https://picsum.photos/200/300" alt="Placeholder Image">
         </div>
         <div class="sidebar">
             <h2>Education</h2>
@@ -56,14 +66,14 @@
             <li><a href="#">OUR PROGRAMS >></a></li>
         </div>
         <div class="quote">
-            <img src="images/doctor.png" alt="Doctor">
+            <img src="https://picsum.photos/200/300" alt="Doctor">
             <p>The School of Medicine is a home of mentors, an undiscovered gem, a diamond in the rough, a small program
                 that has allowed me to fly as high as I desire to. The School of Medicine is unlimited opportunities,
-                just waiting for someone to work hard and take them. The School of Medicine is opportunity.></p>
+                just waiting for someone to work hard and take them. The School of Medicine is opportunity.</p>
             <p>Sarah Hall Kiriluk, MD, Class of 2025 MD Program Graduate</p>
         </div>
         <div id="background-image">
-            <img src="placeholder.jpg" alt="Placeholder Image">
+            <img src="https://picsum.photos/200/300" alt="Placeholder Image">
         </div>
         <div class="sidebar2">
             <h2>Research</h2>
@@ -71,22 +81,25 @@
                 to collaborate allow our research team to impact our state and beyond.</p>
             <li><a href="#">EXPLORE YOUR OPPORTUNITIES >></a></li>
         </div>
-        <div id="text-section">
+        <div id="directory-grid">
             <div class="directory-box">
-                <img src="placeholder.jpg" alt="Placeholder Image">
+                <img src="https://picsum.photos/500/500" alt="Placeholder Image">
+                <h3>Tour the new Health Sciences campus >></h3>
                 <p>This is a caption for an image</p>
             </div>
             <div class="directory-box">
-                <img src="placeholder.jpg" alt="Placeholder Image">
+                <img src="https://picsum.photos/500/500" alt="Placeholder Image">
+                <h3>News >></h3>
                 <p>This is a caption for an image</p>
             </div>
             <div class="directory-box">
-                <img src="placeholder.jpg" alt="Placeholder Image">
+                <img src="https://picsum.photos/500/500" alt="Placeholder Image">
+                <h3>Directory >></h3>
                 <p>This is a caption for an image</p>
             </div>
         </div>
         <div id="background-image">
-            <img src="placeholder.jpg" alt="Placeholder Image">
+            <img src="https://picsum.photos/200/300" alt="Placeholder Image">
         </div>
         <div class="sidebar2">
             <h2>Centers and Institutes</h2>
@@ -100,53 +113,117 @@
             <nav>
                 <ul>
                     <li><a href="#">GIVE TO MEDICINE</a></li>
-                    <li><a href="#">ALUMNI/a></li>
+                    <li><a href="#">ALUMNI</a></li>
                     <li><a href="#">STUDENT RESOURCES</a></li>
                 </ul>
             </nav>
-            <div class="social-links">
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">X</a>
+            <div class="bottom-info">
+                <section class="bottom-column school-social">
+                    <a href="#" class="school-link">Floyd School of Medicine >></a>
+                    <a href="#" class="medicine-button">MY SCHOOL OF MEDICINE</a>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="X">X</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="YouTube">YT</a>
+                    </div>
+                </section>
+                <section class="bottom-column">
+                    <div class="school-links">
+                        <a href="#">About Us</a>
+                        <a href="#">Give</a>
+                        <a href="#">Calendar</a>
+                        <a href="#">Directory</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">History</a>
+                    </div>
+                </section>
+                <section class="bottom-column address">
+                    <a href="#" class="address-title">
+                        Floyd School of Medicine<br>
+                        Medical Education Center</a>
+                    <p>6311 Garners Ferry Road</p>
+                    <p>Columbia, SC 29208</p>
+                    <p>Phone: 803-216-3625</p>
+                </section>
             </div>
         </div>
     </div>
 </body>
 <footer>
     <div class="first-half">
-        <img src="images/usclogo.png" alt="USC Logo">
-        <div class="top-right-links">
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">X</a></li>
-            </ul>
+        <div class="footer-heading">
+            <img src="https://picsum.photos/200/200" alt="University of South Carolina">
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="X">X</a>
+            </div>
         </div>
-        <div class="bottom-links">
-            <div class="colleges-schools">
-                <p>COLLEGES & SCHOOLS</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="offices-divisions">
-                <p>OFFICES & DIVISIONS</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="tools">
-                <p>TOOLS</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+        <div class="footer-sections">
+            <section class="footer-section colleges-schools">
+                <h3>COLLEGES & SCHOOLS</h3>
+                <div class="footer-links three-columns">
+                    <div>
+                        <a href="#">Arts and Sciences</a>
+                        <a href="#">Business</a>
+                        <a href="#">Education</a>
+                        <a href="#">Engineering and Computing</a>
+                        <a href="#">The Graduate School</a>
+                        <a href="#">Hospitality, Retail and Sport Management</a>
+                    </div>
+                    <div>
+                        <a href="#">Information and Communications</a>
+                        <a href="#">Law</a>
+                        <a href="#">Medicine</a>
+                        <a href="#">Medicine (Greenville)</a>
+                        <a href="#">Music</a>
+                        <a href="#">Nursing</a>
+                    </div>
+                    <div>
+                        <a href="#">Pharmacy</a>
+                        <a href="#">Public Health</a>
+                        <a href="#">Social Work</a>
+                        <a href="#">South Carolina Honors College</a>
+                        <a href="#">Palmetto College</a>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-section offices-divisions">
+                <h3>OFFICES & DIVISIONS</h3>
+                <div class="footer-links two-columns">
+                    <div>
+                        <a href="#">Employment</a>
+                        <a href="#">Undergraduate Admissions</a>
+                        <a href="#">Financial Aid and Scholarships</a>
+                        <a href="#">Bursar (fee payment)</a>
+                        <a href="#">Veterans and Military Services</a>
+                        <a href="#">Disability Resources</a>
+                    </div>
+                    <div>
+                        <a href="#">Access and Opportunity</a>
+                        <a href="#">Human Resources</a>
+                        <a href="#">Law Enforcement and Safety</a>
+                        <a href="#">University Libraries</a>
+                        <a href="#">All Offices and Divisions</a>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-section tools">
+                <h3>TOOLS</h3>
+                <div class="footer-links">
+                    <div>
+                        <a href="#">Carolina Alert</a>
+                        <a href="#">Campus Email</a>
+                        <a href="#">my.sc.edu</a>
+                        <a href="#">Blackboard</a>
+                        <a href="#">Campus Safety and Wellness</a>
+                        <a href="#">PeopleSoft Finance</a>
+                    </div>
+                </div>
+            </section>
+
         </div>
     </div>
     <div class="second-half">
@@ -156,9 +233,9 @@
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Student Consumer Information</a></li>
                 <li><a href="#">Transparency Initiative</a></li>
-                <li><a href="#">civil Rights and Title IX</a></li>
+                <li><a href="#">Civil Rights and Title IX</a></li>
                 <li><a href="#">Digital Accessibility</a></li>
-                <li><a href="#">Contact</a></l>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
