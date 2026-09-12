@@ -133,6 +133,7 @@ h2 a {
         width: 100%;
         padding: 10px;
     }
+
     .assignments {
         display: flex;
         flex-direction: column;
@@ -140,6 +141,7 @@ h2 a {
         gap: 15px;
         width: 100%;
         padding: 0;
+        justify-content: space-evenly;
     }
 
     .assignment {
