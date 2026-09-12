@@ -1,8 +1,4 @@
 /* Ensuring screen doesn't have space to side */
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   overflow-x: hidden;

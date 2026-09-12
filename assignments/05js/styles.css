@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: teal;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: coral;
+}
+
+.assignment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    column-gap: 20px;
+    align-content: center;
+}
+
+.assignment-grid h3 {
+    text-align: center;
+    color: teal;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.test-box {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: khaki;
+    border: 2px solid teal;
+    padding: 24px;
+    height: auto;
+    position: relative;
+    margin: 25px;
+    width: 350px;
+    height: 350px;
+}
+
+.speech-button {
+    background-color: khaki;
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#speech-bubble {
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 24%;
+    display: none;
+    background-color: white;
+    width: 70px;
+    height: 50px;
+}
+
+#speech-bubble:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 25px;
+    border-right: 10px solid khaki;
+    border-left: 50px solid khaki;
+    border-top: 10px solid white;
+    border-width: 10px;
+    left: 40px;
+    transform: rotate('40');
+    width: 5px;
+    height: 5px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.test-content label {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+select {
+    padding: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#sun-img {
+    width: 70%;
+    margin: auto;
+}
+
+.test-content {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sun-button {
+    border: none;
+    background-color: khaki;
+}
+
+#emoji {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    display: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .assignment-grid {
+        display: block;
+    }
+
+    .test-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    #speech-bubble {
+        align-items: center;
+        position: relative;
+    }
+
+    #emoji {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    display: none;
+}
+}
