@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 232, 245);
+    align-items: center;
+}
+
+h1 {
+    padding: 20px;
+    color: teal;
+}
+
+h2 {
+    margin: 10px;
+    padding: 20px;
+    color: coral;
+}
+
+#exercise1 {
+    align-items: center;
+    display: none;
+}
+
+#exercise2 {
+    display: none;
+}
+
+.test-card {
+    border: 5px solid rgba(0, 191, 255, 0.747);
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    width: auto;
+    color: teal;
+}
+
+#exercise-choice {
+    align-items: center;
+}
+
+ul {
+    position: relative;
+    right: 20px;
+    list-style: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+ul p {
+    font-weight: bold;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+ul li button {
+    background: none;
+    padding: 10px;
+    color: teal;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#dropdown-arrow {
+    display: none;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    color: palegoldenrod;
+    margin-top: 30px;
+    font-size: 24px;
+    position: absolute;
+    bottom: 10px;
+}
+
+footer a {
+    color: teal;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    #divider {
+        display: none;
+    }
+
+    #dropdown-arrow {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 auto;
+        background: none;
+        border: none;
+        color: teal;
+    }
+
+    #dropdown-arrow.open {
+        transform: rotate(180deg);
+
+    }
+
+    #mobile-menu.open {
+        text-decoration: none;
+        background: none;
+        border: none;
+        color: teal;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #mobile-menu button {
+        text-decoration: none;
+        background: none;
+        border: none;
+        color: teal;
+        display: flex;
+        padding: 10px;
+    }
+
+    ul {
+        display: none;
+        margin: 0 auto;
+    }
+}
