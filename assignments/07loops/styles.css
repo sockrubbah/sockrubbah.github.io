@@ -1,0 +1,105 @@
+ :root {
+     --grass: green;
+     --asphalt: darkslategray;
+     --road-border: white;
+     --divider-lines: yellow;
+     --tar: black;
+     --windshield: lightblue;
+ }
+
+ body {
+     margin: 0;
+     width: 100%;
+     height: 100%;
+ }
+
+ #background {
+     background-color: var(--grass);
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+ }
+
+ #road {
+     overflow: hidden;
+     position: relative;
+     width: 100%;
+     height: 20%;
+     margin: 20px auto;
+     background-color: var(--asphalt);
+     align-self: center;
+     border-top: 10px solid var(--road-border);
+     border-bottom: 10px solid var(--road-border);
+ }
+
+ #road::before {
+     content: "";
+     position: absolute;
+     top: 50%;
+     left: 0;
+     width: 100%;
+     height: 10px;
+     background: repeating-linear-gradient(to left,
+             var(--divider-lines) 0px,
+             var(--divider-lines) 40px,
+             transparent 20px,
+             transparent 60px);
+ }
+
+ .car {
+     position: absolute;
+     width: 80px;
+     height: 50px;
+     border-radius: 10px;
+ }
+
+ .car::before {
+     content: "";
+     position: absolute;
+     left: 5px;
+     bottom: -10px;
+     width: 20px;
+     height: 20px;
+     background-color: var(--tar);
+     border-radius: 50%;
+ }
+
+ .car::after {
+     content: "";
+     position: absolute;
+     right: 5px;
+     bottom: -10px;
+     width: 20px;
+     height: 20px;
+     background-color: var(--tar);
+     border-radius: 50%;
+ }
+
+ .windshield {
+     width: 50px;
+     height: 25px;
+     background-color: var(--windshield);
+     position: absolute;
+     top: -20px;
+     left: 15px;
+     border-radius: 30px 30px 0px 0px;
+ }
+
+ @media (max-width: 600px) {
+     #road {
+         height: 50%;
+     }
+
+     .car {
+         width: 60px;
+         height: 40px;
+     }
+
+     .windshield {
+         width: 40px;
+         height: 20px;
+         top: -15px;
+         left: 10px;
+     }
+ }

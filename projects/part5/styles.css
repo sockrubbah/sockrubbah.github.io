@@ -1,0 +1,489 @@
+:root {
+    --page-background: #1D1929;
+    --surface-background: #121116;
+    --accent-color: #C3FF1A;
+    --primary-text: white;
+    --secondary-text: grey;
+    --dark-text: black;
+}
+
+body {
+    margin: 0;
+    background: var(--page-background);
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header {
+    background-color: var(--surface-background);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-text);
+}
+
+header button {
+    border-color: var(--accent-color);
+    border-radius: 10%;
+    background-color: var(--surface-background);
+    color: var(--accent-color);
+    padding: 10px;
+}
+
+header img {
+    margin-left: 20px;
+}
+
+#first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-section h1 {
+    color: var(--primary-text);
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 500px;
+    font-weight: bold;
+}
+
+#first-section p {
+    color: var(--accent-color);
+    width: 450px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+#searchbar {
+    width: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: var(--surface-background);
+    color: var(--secondary-text);
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--accent-color);
+}
+
+#search-symbol {
+    font-size: 16px;
+    color: var(--accent-color);
+    position: relative;
+    top: 12px;
+}
+
+#searchbar input {
+    width: 450px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--surface-background);
+    color: var(--secondary-text);
+    border: none;
+    outline: none;
+}
+
+.section-header {
+    border-left: 1px solid var(--accent-color);
+    font-size: 13px;
+    color: var(--accent-color);
+    padding: 5px 0 5px 5px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#browse-button {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+#browse-button a {
+    color: var(--accent-color);
+}
+
+.homepage-content {
+    display: flex;
+    align-items: center;
+
+}
+
+#sotd-content {
+    display: flex;
+}
+
+#sotd-content h1 {
+    color: var(--primary-text);
+}
+
+#details {
+    border-bottom: 1px solid var(--secondary-text);
+    padding-bottom: 25px;
+}
+
+#sotd-content p {
+    color: var(--secondary-text);
+}
+
+#user-username {
+    color: var(--accent-color);
+}
+
+#user-info {
+    display: flex;
+    gap: 10px;
+}
+
+.genre-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.genre-icon {
+    width: 200px;
+    height: 150px;
+    padding: 25px;
+}
+
+.genre-box {
+    border: 1px solid var(--accent-color);
+    border-radius: 30px;
+    color: var(--accent-color);
+    text-align: center;
+    background-color: var(--surface-background);
+}
+
+.genre-box h3 {
+    color: var(--primary-text);
+    font-weight: bold;
+}
+
+.commingle-content {
+    display: flex;
+    align-items: center;
+}
+
+#left-commingle h1 {
+    color: var(--primary-text);
+    font-weight: bold;
+}
+
+#left-commingle p {
+    color: var(--secondary-text);
+    width: 100%;
+    max-width: 800px;
+}
+
+#right-commingle {
+    border: 1px solid var(--accent-color);
+    border-radius: 30px;
+    margin-left: auto;
+    min-height: 250px;
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--surface-background);
+}
+
+
+#right-commingle-header {
+    display: flex;
+    align-items: center;
+    color: var(--primary-text);
+    margin-left: 20px;
+
+}
+
+#right-commingle-header h3 {
+    color: var(--primary-text);
+}
+
+#right-commingle-header p {
+    margin-left: auto;
+    background-color: var(--accent-color);
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--dark-text);
+}
+
+#commingle-participants {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-text);
+    margin-left: 20px;
+}
+
+#commingle-song-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#commingle-live-info h3 {
+    color: var(--primary-text);
+}
+
+#commingle-live-info p {
+    color: var(--accent-color);
+}
+
+#listener-count {
+    color: var(--accent-color);
+}
+
+#enter-commingle {
+    background-color: var(--accent-color);
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#share-a-song-footer {
+    margin: 0 auto;
+    margin-top: 200px;
+    align-self: center;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#live-image {
+    margin-left: 20px;
+}
+
+#share-a-song-footer h3 {
+    color: var(--primary-text);
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#share-a-song-footer p {
+    color: var(--secondary-text);
+    font-size: 16px;
+}
+
+#share-a-song-footer button {
+    border-radius: 30px;
+    background-color: var(--accent-color);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media (max-width: 1000px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    header {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    header img {
+        height: auto;
+        width: 350px;
+        max-width: 100%;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    header nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    header nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin-right: 0;
+        padding: 8px;
+    }
+
+    header button {
+        margin: 30px;
+    }
+
+    .genre-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .genre-box {
+        width: 40%;
+        box-sizing: border-box;
+    }
+
+    .genre-box p {
+        font-size: 12px;
+    }
+
+    .genre-icon {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    header {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    header img {
+        height: auto;
+        width: 350px;
+        max-width: 100%;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    header nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    header nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin-right: 0;
+        padding: 8px;
+    }
+
+    header button {
+        margin: 30px;
+    }
+    #first-section h1 {
+        width: auto;
+        font-size: 45px;
+    }
+
+    #first-section p {
+        width: auto;
+    }
+
+    #searchbar {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #searchbar input {
+        width: 100%;
+    }
+
+    .homepage-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .commingle-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #sotd-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .genre-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .genre-box {
+        width: 40%;
+        box-sizing: border-box;
+    }
+
+    .genre-box p {
+        font-size: 12px;
+    }
+
+    .genre-icon {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    #left-commingle {
+        text-align: center;
+    }
+
+    #left-commingle p {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #right-commingle {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #right-commingle {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    #share-a-song-footer {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}

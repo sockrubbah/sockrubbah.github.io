@@ -1,0 +1,106 @@
+:root {
+    --teal: teal;
+    --coral: coral;
+    --background: blanchedalmond;
+    --link: blue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: var(--teal);
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: var(--coral);
+}
+
+#destination-pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    background-color: var(--background);
+    padding: 30px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#locations {
+    font-size: 20px;
+}
+
+#mountain-choices {
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+#beach-choices {
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+#mountain-choices link {
+    color: var(--link);
+}
+
+#googleMap iframe {
+    width: 500px;
+    height: 500px;
+    border: 0;
+}
+
+footer {
+    text-align: left;
+    color: var(--coral);
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--coral);
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    #destination-pick {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: auto;
+        background-color: var(--background);
+        padding: 30px;
+        margin: 0 auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #googleMap iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}

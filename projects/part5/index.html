@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Music Multiverse Homepage</title>
+</head>
+<header>
+    <img src="images/logo.svg" alt="Music Multiverse Logo">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Browse</a></li>
+            <li><a href="#">Commingle</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">About</a></li>
+            <button id="addSong">+ Share a Song</button>
+        </ul>
+    </nav>
+</header>
+<main>
+
+    <section id="first-section">
+        <h1 id="main-text">
+            Discover and share the infinite sounds of the Music Multiverse.
+        </h1>
+        <p>Explore a vast library of songs, connect with fellow listeners, and find your next favorite track.</p>
+        <div id="searchbar">
+            <div id="search-symbol">🔍︎</div>
+            <input type="search" placeholder="Search for a song, artist, or playlist...">
+        </div>
+    </section>
+    <section class="section-header">
+        <p>SONG OF THE DAY</p>
+    </section>
+    <section class="homepage-content">
+        <div id="sotd-content">
+            <img class="song-icon" src="images/sotd.svg" alt="Song of the Day icon">
+            <div id="song-description">
+                <h1>Midnight In Neon</h1>
+                <span id="listener-count">by Aurora Veil</span>
+                <p id="details">A hauntingly beautiful track that blends dreamy synth textures with ethereal vocals.
+                    "Midnight in Neon" captures that rare feeling of wandering through a city that's somehow both
+                    electric and serene - the kind of song that makes you feel less alone at 2am.</p>
+                <div id="user-info"><img class="user-icon" src="images/user.svg" alt="User icon">
+                    <p>Uploaded by <span id="user-username">@stellarwaves</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-header">
+        <p>EXPLORE GENRES</p>
+        <span id="browse-button"><a href="#" alt="browse">browse →</a></span>
+    </section>
+    <section class="genre-content">
+        <div class="genre-box">
+            <img class="genre-icon" src="images/headphones.svg" alt="Headphones icon">
+            <h3>Lo-fi</h3>
+            <p class="genre-desc">Shared by @chillbeats</p>
+        </div>
+        <div class="genre-box">
+            <img class="genre-icon" src="images/violin.svg" alt="Headphones icon">
+            <h3>Indie Rock</h3>
+            <p class="genre-desc">Shared by @indiemusic</p>
+        </div>
+        <div class="genre-box">
+            <img class="genre-icon" src="images/microphone.svg" alt="Headphones icon">
+            <h3>Jazz</h3>
+            <p class="genre-desc">Shared by @jazzmaster</p>
+        </div>
+        <div class="genre-box">
+            <img class="genre-icon" src="images/electronic.svg" alt="Headphones icon">
+            <h3>Electronic</h3>
+            <p class="genre-desc">Shared by @technozone</p>
+        </div>
+        <div class="genre-box">
+            <img class="genre-icon" src="images/speaker.svg" alt="Headphones icon">
+            <h3>Hip Hop</h3>
+            <p class="genre-desc">Shared by @hiphopcentral</p>
+        </div>
+        <div class="genre-box">
+            <img class="genre-icon" src="images/classical.svg" alt="Headphones icon">
+            <h3>Classical</h3>
+            <p class="genre-desc">Shared by @classical</p>
+        </div>
+    </section>
+    <section class="section-header">
+        <p>COMMINGLE</p>
+        <span id="browse-button"><a href="#" alt="browse">browse →</a></span>
+    </section>
+    <section class="commingle-content">
+        <div id="left-commingle">
+            <h1>Join the Commingle</h1>
+            <p>Commingle is a live listening party where users share and discover music together in real time. Drop into
+                a room, share your favorite tracks, and vibe with the community.</p>
+            <button id="enter-commingle">▷ Enter Commingle</button>
+        </div>
+        <div id="right-commingle">
+            <div id="right-commingle-header">
+                <h3>The Daily Groove<br><span id="listener-count">1,240 listeners</span></h3>
+                <p>LIVE NOW</p>
+            </div>
+            <div id="commingle-song-group">
+                <img id="live-image" src="images/note.svg" alt="Commingle Live Icon">
+                <div id="commingle-live-info">
+                    <h3>Midnight City</h3>
+                    <p>M83</p>
+                </div>
+            </div>
+            <p id="commingle-participants">Active participants:<img class="commingle-icon"
+                    src="images/commingle_sample.svg" alt="Listening group icons">
+            </p>
+        </div>
+    </section>
+    <div id="share-a-song-footer">
+        <h3>Help Contribute To The Multiverse</h3>
+        <p>Share your music with others by uplaoding your first song!</p>
+        <button id="upload-first-track">Upload Your First Track!</button>
+    </div>
+</main>
+
+</html>

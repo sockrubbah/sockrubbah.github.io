@@ -43,3 +43,17 @@ document.getElementById("stopButton").onclick = () => {
     btnPause.disabled=true;
 }
 
+//Loops
+array.forEach((item) =>{
+    const p = document.createElement("p").innerHTML;
+    p.innerHTML = item;
+    arrayList.append(p);
+});
+
+//Array
+document.getElementById("btn-show-mountain").onclick = () => {
+    const div = document.getElementById("mountain-info");
+
+    const mountainMap = [];
+    mountainMap[]
+}
