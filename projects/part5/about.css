@@ -1,0 +1,346 @@
+:root {
+    --page-background: #1D1929;
+    --surface-background: #121116;
+    --accent-color: #C3FF1A;
+    --primary-text: #F4F3F6;
+    --secondary-text: #8F8A98;
+    --dark-text: #0A090C;
+    --border-color: #2D2938;
+    --soft-surface: #1A1820;
+    --fade-background: #0B0A0F;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(105deg, var(--page-background), var(--fade-background) 70%);
+    color: var(--primary-text);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-header {
+    min-height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--surface-background);
+    border-bottom: 1px solid #25232C;
+}
+
+.brand img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+}
+
+.site-header nav {
+    margin-left: auto;
+}
+
+.site-header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.site-header nav a {
+    padding: 12px 0;
+    color: var(--secondary-text);
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus-visible,
+.site-header nav .active {
+    color: var(--accent-color);
+}
+
+.site-header nav .active {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.site-header nav .share-button {
+    display: inline-block;
+    padding: 11px 20px;
+    color: var(--accent-color);
+    font-weight: bold;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+.eyebrow {
+    margin: 0 0 34px;
+    padding: 7px 16px;
+    border-radius: 18px;
+    background-color: #29321B;
+    color: var(--accent-color);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.manifesto {
+    min-height: 550px;
+    padding: 100px 24px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.manifesto h1 {
+    max-width: 880px;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 72px;
+    text-align: center;
+}
+
+.manifesto-copy {
+    max-width: 720px;
+    margin: 35px auto 0;
+    color: var(--secondary-text);
+    font-size: 18px;
+}
+
+.principles {
+    min-height: 500px;
+    padding: 75px 60px;
+}
+
+.principles h2,
+.curator-callout h2 {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+}
+
+.principle-list {
+    margin-top: 58px;
+    display: flex;
+    gap: 40px;
+}
+
+.principle-card {
+    min-height: 220px;
+    padding: 30px;
+    flex: 1;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background-color: rgba(18, 17, 22, 1);
+    text-align: left;
+}
+
+.icon-circle {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #263019;
+}
+
+.icon-circle img {
+    width: 22px;
+    height: 22px;
+}
+
+.principle-card h3 {
+    margin: 22px 0 18px;
+    font-size: 21px;
+}
+
+.principle-card p {
+    margin: 0;
+    color: var(--secondary-text);
+    line-height: 1.5;
+}
+
+.community-stats {
+    padding: 65px 60px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--soft-surface);
+}
+
+.community-stats dl {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.community-stats div {
+    flex: 1;
+}
+
+.community-stats dt {
+    color: var(--accent-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.community-stats dd {
+    margin: 14px 0 0;
+    color: var(--secondary-text);
+    font-size: 16px;
+}
+
+.curator-callout {
+    min-height: 430px;
+    padding: 100px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--page-background);
+}
+
+.curator-callout h2 {
+    max-width: 650px;
+}
+
+.curator-callout p {
+    max-width: 640px;
+    margin: 30px 0;
+    color: var(--secondary-text);
+}
+
+.curator-callout a {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: var(--accent-color);
+    color: var(--dark-text);
+    font-weight: bold;
+}
+
+.curator-callout a:hover,
+.curator-callout a:focus-visible {
+    background-color: var(--accent-color);
+}
+
+@media (max-width: 1000px) {
+    .site-header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .site-header nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .site-header ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 22px;
+    }
+
+    .principles {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .principle-list {
+        gap: 22px;
+    }
+}
+
+@media (max-width: 760px) {
+    .brand img {
+        width: 260px;
+    }
+
+    .site-header nav .share-button {
+        padding: 8px 12px;
+    }
+
+    .manifesto {
+        min-height: auto;
+        padding: 75px 20px;
+    }
+
+    .manifesto h1 {
+        font-size: 58px;
+    }
+
+    .principles {
+        padding: 60px 20px;
+    }
+
+    .principle-list,
+    .community-stats dl {
+        flex-direction: column;
+    }
+
+    .principle-list {
+        margin-top: 42px;
+    }
+
+    .community-stats {
+        padding: 55px 20px;
+    }
+
+    .community-stats dl {
+        gap: 45px;
+    }
+
+    .curator-callout {
+        min-height: auto;
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .site-header {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .site-header img {
+        height: auto;
+        width: 350px;
+        max-width: 100%;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .site-header nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .site-header nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .site-header nav ul li {
+        margin-right: 0;
+        padding: 8px;
+    }
+
+    .site-header button {
+        margin: 30px;
+    }
+
+    .site-header ul {
+        gap: 4px 14px;
+    }
+}

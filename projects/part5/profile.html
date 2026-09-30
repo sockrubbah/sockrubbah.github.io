@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="profile.css" rel="stylesheet">
+    <title>Alex Chen | Music Multiverse</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="Music Multiverse">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="commingle.html">Commingle</a></li>
+                <li><a class="active" href="profile.html">Profile</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="share-button" href="share.html">+ Share a Song</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-hero">
+            <img class="cover-image" src="images/turntable-banner.svg" alt="Close-up of a vintage turntable">
+            <div class="profile-summary">
+                <img class="profile-photo" src="images/alex-chen.svg" alt="Alex Chen holding a camera">
+                <div class="profile-copy">
+                    <h1>Alex Chen</h1>
+                    <a class="username" href="#">@desert_sander</a>
+                    <p>Sound designer & cassette collector. Excavating rare post-punk, shoegaze, and classic 90s
+                        ambient. Always digging.</p>
+                    <dl class="profile-stats">
+                        <div>
+                            <dt>142</dt>
+                            <dd>Shares</dd>
+                        </div>
+                        <div>
+                            <dt>1.4k</dt>
+                            <dd>Followers</dd>
+                        </div>
+                        <div>
+                            <dt>380</dt>
+                            <dd>Following</dd>
+                        </div>
+                    </dl>
+                </div>
+                <div class="profile-actions">
+                    <a class="edit-button" href="#">Edit Profile</a>
+                    <a class="share-crate" href="#">Share Crate</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-content">
+            <aside class="profile-sidebar">
+                <section class="sidebar-card">
+                    <h2>Preferred Vibes</h2>
+                    <div class="vibe-tags">
+                        <a class="selected" href="#">Post-Punk</a>
+                        <a class="selected" href="#">Shoegaze</a>
+                        <a class="selected" href="#">Ambient</a>
+                        <a href="#">IDM</a>
+                        <a href="#">Slowcore</a>
+                    </div>
+                </section>
+
+                <section class="sidebar-card links-card">
+                    <h2>Links</h2>
+                    <a href="https://bandcamp.com/desert_sander">bandcamp.com/desert_sander</a>
+                    <a href="https://soundcloud.com/sand-drift">soundcloud.com/sand-drift</a>
+                </section>
+            </aside>
+
+            <section class="profile-library">
+                <nav class="library-tabs">
+                    <a class="active" href="#shared-tracks">Shared Tracks (42)</a>
+                    <a href="#">Playlists (8)</a>
+                    <a href="#">Favorites</a>
+                </nav>
+
+                <div id="shared-tracks">
+                    <article class="track-card">
+                        <img src="images/dream-theory.svg" alt="Dream Theory album cover">
+                        <div class="track-copy">
+                            <h2>Dream Theory</h2>
+                            <p>Prism</p>
+                            <blockquote>“Deeply cinematic. The way the pads dissolve is perfect.”</blockquote>
+                        </div>
+                        <span class="track-genre">Ethereal Ambient</span>
+                    </article>
+
+                    <article class="track-card">
+                        <img src="images/static-wind.svg" alt="Static Wind album cover">
+                        <div class="track-copy">
+                            <h2>Static Wind</h2>
+                            <p>The Dead Air</p>
+                            <blockquote>“Incredible bassline, feels straight out of Manchester 1981.”</blockquote>
+                        </div>
+                        <span class="track-genre">Post-Punk</span>
+                    </article>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

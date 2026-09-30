@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="commingle.css" rel="stylesheet">
+    <title>Commingle | Music Multiverse</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="Music Multiverse">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a class="active" href="commingle.html">Commingle</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="share-button" href="share.html">+ Share a Song</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Commingle Feed</h1>
+            <p>The continuous stream of community discoveries, reactions, and sonic discourse.</p>
+        </section>
+
+        <section class="commingle-layout">
+            <div class="feed-column">
+                <form class="create-post">
+                    <img src="images/current-user.svg" alt="Your profile picture">
+                    <div class="post-fields">
+                        <label class="sr-only" for="post-message">Share what you are listening to</label>
+                        <textarea id="post-message" placeholder="What are you listening to right now?"></textarea>
+                        <div class="post-tools">
+                            <button class="add-track" type="button">♫ Add Track Link</button>
+                            <button class="add-artwork" type="button">▧ Artwork</button>
+                            <button class="post-button" type="submit">Post to Feed</button>
+                        </div>
+                    </div>
+                </form>
+
+                <article class="feed-post">
+                    <header class="post-header">
+                        <img src="images/nite-glow.svg" alt="Nite Glow profile picture">
+                        <div>
+                            <h2>@Nite_Glow</h2>
+                            <p>shared a record</p>
+                        </div>
+                        <span class="top-digger">☆ TOP DIGGER</span>
+                    </header>
+                    <p class="post-text">This new ambient techno piece from Tokyo's underground is stellar. Pure
+                        architectural synthesizer lines. Ideal for late-night code runs.</p>
+                    <section class="shared-track">
+                        <img src="images/neon-drift.svg" alt="Neon Drift cover art">
+                        <div>
+                            <h3>Neon Drift</h3>
+                            <p>Vapor Space</p>
+                            <span>Ambient Techno</span>
+                        </div>
+                        <button class="play-button" type="button">▷</button>
+                    </section>
+                    <footer class="reactions">
+                        <button type="button">♡ <span>42</span></button>
+                        <button type="button">◯ <span>9</span></button>
+                        <button type="button">⇄ <span>14</span></button>
+                    </footer>
+                </article>
+
+                <article class="feed-post">
+                    <header class="post-header">
+                        <img src="images/fuzz-lord.svg" alt="Fuzz Lord profile picture">
+                        <div>
+                            <h2>@Fuzz_Lord</h2>
+                            <p>shared a record</p>
+                        </div>
+                        <span class="top-digger">☆ TOP DIGGER</span>
+                    </header>
+                    <p class="post-text">The guitar tones on this slowcore track are heavier than a lead blanket.
+                        Fans of Codeine and Duster, look no further.</p>
+                    <section class="shared-track">
+                        <img src="images/weight-of-water.svg" alt="Weight of Water cover art">
+                        <div>
+                            <h3>Weight of Water</h3>
+                            <p>Slow Drift</p>
+                            <span>Slowcore / Sadcore</span>
+                        </div>
+                        <button class="play-button" type="button">▷</button>
+                    </section>
+                    <footer class="reactions">
+                        <button type="button">♡ <span>89</span></button>
+                        <button type="button">◯ <span>18</span></button>
+                        <button type="button">⇄ <span>31</span></button>
+                    </footer>
+                </article>
+
+                <section class="live-room">
+                    <h2>Join Commingle Live</h2>
+                    <p>Drop into a live listening room with the community and react in real time.</p>
+                    <div class="live-session">
+                        <div>
+                            <h3>Ambient Techno Session</h3>
+                            <p>Starts in 15 minutes</p>
+                        </div>
+                        <a href="#">▷ Join Live</a>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="sidebar">
+                <section class="trending">
+                    <h2>Trending Waves</h2>
+                    <ul>
+                        <li><strong>#Shoegaze</strong><span>1.2k tracks</span></li>
+                        <li><strong>#Breakcore</strong><span>840 tracks</span></li>
+                        <li><strong>#Ethereal</strong><span>620 tracks</span></li>
+                        <li><strong>#IDM</strong><span>590 tracks</span></li>
+                    </ul>
+                </section>
+
+                <section class="follow-card">
+                    <h2>Diggers to Follow</h2>
+                    <article>
+                        <img src="images/acid-jerk.svg" alt="Acid Jerk profile picture">
+                        <div><h3>@acid_jerk</h3><p>Rare vinyl & house digger.</p></div>
+                        <button type="button">Follow</button>
+                    </article>
+                    <article>
+                        <img src="images/shoegazer-99.svg" alt="Shoegazer 99 profile picture">
+                        <div><h3>@shoegazer_99</h3><p>Wall of sound archivist.</p></div>
+                        <button type="button">Follow</button>
+                    </article>
+                </section>
+            </aside>
+        </section>
+    </main>
+</body>
+
+</html>
