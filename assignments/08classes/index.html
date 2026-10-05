@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
 </head>
+<div id="everything">
 <header>
     <h1>Vacations</h1>
     <h2>Vacation Experiences</h2>
 </header>
-<main>
+<main id ="overlay">
     <section id="vacation-list">
-        <div id="vacation-container">
+
+    </section>
+
+    
+</main>
+<div id="vacation-container" class="js-modal">
+        <div id="googleMap"></div>
+        <div id="modal-content">
+            <button id="close-modal" type="button">x</button>
             <p id="title"></p>
             <p id="type">Type: </p>
-            <p id="description">Description: </p>
-            <img src="#" alt="Current Modal Image" id="current-img">
-            <div id="googleMap"></div>
+            <p id="description">Description: </p>            
         </div>
-    </section>
-</main>
+    </div>
+<script src="script.js"></script>
+</div>
 </html>
