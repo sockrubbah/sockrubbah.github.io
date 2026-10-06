@@ -553,6 +553,10 @@ main {
 }
 
 @media (max-width: 650px) {
+    .brand img {
+        width: 260px;
+    }
+
     .site-header {
         flex-wrap: wrap;
         padding: 10px;
