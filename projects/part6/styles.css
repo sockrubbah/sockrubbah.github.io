@@ -267,8 +267,9 @@ img {
     color: var(--accent-color);
     text-align: center;
     background-color: var(--surface-background);
-    flex: 1 1 200px;
+    flex-grow: 0;
     min-width: 0;
+    width: 175px;
 }
 
 .genre-box h3 {
