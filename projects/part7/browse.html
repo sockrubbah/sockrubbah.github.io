@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="browse.css" rel="stylesheet">
+    <title>Browse | Music Multiverse</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="Music Multiverse">
+        </a>
+        <button id="menu-button" type="button">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="browse.html">Browse</a></li>
+                <li><a href="commingle.html">Commingle</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="share-button" href="share.html">+ Share a Song</a></li>
+            </ul>
+        </nav>
+        <div id="waveform"></div>
+    </header>
+
+    <main>
+        <section class="browse-hero">
+            <div class="hero-copy">
+                <p class="eyebrow">EDITOR'S SELECTION</p>
+                <h1>The Sound of the<br>Digital Underground</h1>
+                <p class="hero-description">Unearth the finest independent releases selected by a community of
+                    meticulous diggers. No corporate algorithms. Just pure human frequency.</p>
+                <div class="hero-actions">
+                    <a class="primary-button" href="#recent-curations">Start Digging</a>
+                    <a class="secondary-button" href="#radar">Curator Rankings</a>
+                </div>
+            </div>
+            <img class="hero-art" src="images/digital-underground.svg"
+                alt="Abstract violet and blue sound waves with geometric shapes">
+        </section>
+
+        <section class="filter-bar">
+            <div class="genre-filters">
+                <button class="selected" type="button">All Genres</button>
+                <button type="button">Ambient</button>
+                <button type="button">Post-Punk</button>
+                <button type="button">Shoegaze</button>
+                <button type="button">Hyperpop</button>
+                <button type="button">UK Garage</button>
+                <button type="button">IDM</button>
+                <button type="button">Acid House</button>
+                <button type="button">Slowcore</button>
+                <button type="button">Dreampop</button>
+            </div>
+            <label class="track-search">
+                <span>⌕</span>
+                <span class="sr-only">Search tracks, artists, or curators</span>
+                <input type="search" placeholder="Search tracks, artists, curators...">
+            </label>
+        </section>
+
+        <section class="browse-content">
+            <div class="curations" id="recent-curations">
+                <h2>Recent Curations</h2>
+
+                <article class="track-card">
+                    <img class="album-cover" src="images/silver-soul.svg" alt="Silver Soul album cover">
+                    <div class="track-info">
+                        <h3>Silver Soul</h3>
+                        <p>Echo Lake</p>
+                        <span class="genre-tag">Shoegaze / Dreampop</span>
+                    </div>
+                    <div class="curator">
+                        <time datetime="PT2H">2h ago</time>
+                        <p><img src="images/sander-d.svg" alt=""> <a href="#">@Sander_D</a></p>
+                    </div>
+                </article>
+
+                <article class="track-card">
+                    <img class="album-cover" src="images/broken-code.svg" alt="Broken Code album cover">
+                    <div class="track-info">
+                        <h3>Broken Code</h3>
+                        <p>Hex Unit</p>
+                        <span class="genre-tag">IDM / Breakcore</span>
+                    </div>
+                    <div class="curator">
+                        <time datetime="PT4H">4h ago</time>
+                        <p><img src="images/null-pointer.svg" alt=""> <a href="#">@null_pointer</a></p>
+                    </div>
+                </article>
+
+                <article class="track-card">
+                    <img class="album-cover" src="images/overload.svg" alt="Overload album cover">
+                    <div class="track-info">
+                        <h3>Overload</h3>
+                        <p>Sega Blue</p>
+                        <span class="genre-tag">Hyperpop / Bubblegum</span>
+                    </div>
+                    <div class="curator">
+                        <time datetime="PT6H">6h ago</time>
+                        <p><img src="images/hyper-active.svg" alt=""> <a href="#">@hyper_active</a></p>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="radar-column" id="radar">
+                <h2>On the Radar</h2>
+                <ol class="radar-list">
+                    <li>
+                        <span class="rank">01</span>
+                        <div><strong>Soft Focus</strong><span>Hale</span></div>
+                        <div class="score"><strong>4.2k</strong><span>+12%</span></div>
+                    </li>
+                    <li>
+                        <span class="rank">02</span>
+                        <div><strong>Rhythm Phase</strong><span>Modulate</span></div>
+                        <div class="score"><strong>3.8k</strong><span>+8%</span></div>
+                    </li>
+                    <li>
+                        <span class="rank">03</span>
+                        <div><strong>Tired Eyes</strong><span>Sleep Deprived</span></div>
+                        <div class="score"><strong>3.1k</strong><span>+24%</span></div>
+                    </li>
+                    <li>
+                        <span class="rank">04</span>
+                        <div><strong>Gravel Path</strong><span>Dry Run</span></div>
+                        <div class="score"><strong>2.9k</strong><span>-2%</span></div>
+                    </li>
+                </ol>
+
+                <section class="radio-card">
+                    <h3>Crate Diggers Radio</h3>
+                    <p>Tune into our 24/7 collective stream. Tracks added live by active moderators.</p>
+                    <a href="#">Tune In Live</a>
+                </section>
+            </aside>
+        </section>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>

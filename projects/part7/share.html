@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="share.css" rel="stylesheet">
+    <title>Share a Record | Music Multiverse</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="Music Multiverse">
+        </a>
+        <button id="menu-button" type="button">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="commingle.html">Commingle</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="share-button" href="share.html">+ Share a Song</a></li>
+            </ul>
+        </nav>
+        <div id="waveform"></div>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Share a Record</h1>
+            <p>Put your favorite new discoveries on the collective radar.</p>
+        </section>
+
+        <div class="share-layout">
+            <form class="record-form">
+                <fieldset class="form-section">
+                    <legend>Song Info</legend>
+
+                    <label for="track-title">Track Title</label>
+                    <input id="track-title" name="track-title" type="text" value="Makeshift Love">
+                    <label for="streaming-link">Streaming Link (Bandcamp, SoundCloud, Spotify)</label>
+                    <input id="streaming-link" name="streaming-link" type="url" value="https://vegyn.bandcamp.com/track/makeshift-love">
+                    <label for="track-description">About the Track (Tell the community why you're sharing this)</label>
+                    <textarea id="track-description" name="track-description"
+                        rows="5">The drum programming on this Vegyn record is incredible. Highly recommended for fans of off-kilter IDM and UK leftfield electronic music.</textarea>
+                </fieldset>
+
+                <fieldset class="form-section genre-section">
+                    <legend>Classify Song</legend>
+                    <p>Select primary genres</p>
+                    <div class="genre-options">
+                        <label><span>Ambient</span></label>
+                        <label><span>Post-Punk</span></label>
+                        <label><span>IDM</span></label>
+                        <label><span>Shoegaze</span></label>
+                        <label><span>Hyperpop</span></label>
+                    </div>
+
+                    <label for="descriptors">Add custom descriptors (comma separated)</label>
+                    <input id="descriptors" name="descriptors" type="text"
+                        placeholder="e.g., tape-hiss, raw-drums, lo-fi">
+                </fieldset>
+
+                <div class="form-actions">
+                    <button class="draft-button" type="button">Save as Draft</button>
+                    <button class="publish-button" type="submit">Publish Curated Song</button>
+                </div>
+            </form>
+
+            <aside class="preview-column">
+                <h2>Visual Preview</h2>
+                <article class="track-preview">
+                    <p class="preview-label">LIVE PREVIEW</p>
+                    <img class="preview-art" src="images/makeshift-love.svg" alt="Makeshift Love cover art">
+                    <h3>Makeshift Love</h3>
+                    <p class="artist">Vegyn</p>
+                    <div class="preview-genres"><span>Ambient</span><span>IDM</span></div>
+                    <footer>
+                        <img src="images/desert-sander.svg" alt="Desert Sander profile picture">
+                        <p>Curated by <a href="profile.html">@desert_sander</a></p>
+                    </footer>
+                </article>
+
+                <section class="verification-card">
+                    <h3>Link Verification</h3>
+                    <p><span>✓</span> Bandcamp source detected successfully.</p>
+                </section>
+            </aside>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
