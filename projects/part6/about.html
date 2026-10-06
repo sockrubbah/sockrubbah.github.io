@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="about.css" rel="stylesheet">
+    <title>About | Music Multiverse</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Music Multiverse home">
+            <img src="images/logo.svg" alt="Music Multiverse">
+        </a>
+        <button id="menu-button" type="button">☰</button>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="commingle.html">Commingle</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a class="active" href="about.html" aria-current="page">About</a></li>
+                <li><a class="share-button" href="share.html">+ Share a Song</a></li>
+            </ul>
+        </nav>
+        <div id="waveform"></div>
+    </header>
+
+    <main>
+        <section class="manifesto">
+            <p class="eyebrow">OUR MANIFESTO</p>
+            <h1>Against automated taste. Built for human connection.</h1>
+            <p class="manifesto-copy">Music Multiverse is a non-commercial web community of independent music
+                archivers, bedroom diggers, and casual listeners who believe that the best music discovery happens
+                through human passion, not telemetry curves.</p>
+        </section>
+
+        <section class="principles">
+            <h2>Why We Excavate</h2>
+            <div class="principle-list">
+                <article class="principle-card">
+                    <span class="icon-circle"><img src="images/shield.svg" alt=""></span>
+                    <h3>No Algorithms</h3>
+                    <p>Every song on our platform was hand-selected by an actual human who fell in love with it.</p>
+                </article>
+                <article class="principle-card">
+                    <span class="icon-circle"><img src="images/shield.svg" alt=""></span>
+                    <h3>Zero Ads</h3>
+                    <p>No corporate takeover. Our platform is completely funded by the community, for the community.</p>
+                </article>
+                <article class="principle-card">
+                    <span class="icon-circle"><img src="images/shield.svg" alt=""></span>
+                    <h3>Artist Direct</h3>
+                    <p>We direct all traffic straight to the artist's Bandcamp, SoundCloud, or custom stores.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="community-stats">
+            <dl>
+                <div><dt>10k+</dt><dd>Active Listeners</dd></div>
+                <div><dt>80k+</dt><dd>Songs Unearthed</dd></div>
+                <div><dt>140+</dt><dd>Countries Represented</dd></div>
+            </dl>
+        </section>
+
+        <section class="curator-callout">
+            <h2>Help build the sound archive.</h2>
+            <p>Music Multiverse thrives on curations from passionate listeners. Join our crew of invite-only curators
+                today to start submitting.</p>
+            <a href="#">Apply as a Curator</a>
+        </section>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
