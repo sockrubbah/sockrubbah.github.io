@@ -1,5 +1,7 @@
-[{
-    "song_name": "This is a Test Song",
-    "song_genre": "Rock",
-    "song_picture": "images/violin.svg"
-}]
+[
+    {
+        "song_name": "This is a Test Song",
+        "song_genre": "Rock",
+        "song_picture": "images/violin.svg"
+    }
+]

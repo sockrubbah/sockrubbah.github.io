@@ -22,8 +22,12 @@ const displaySongs = (song) => {
     section.append(h2);
 
     const img = document.createElement("img");
-    img.innerHTML = song.song_picture;
+    img.src = song.song_picture;
+    img.alt = song.song_genre;
+    section.append(img);
     console.log(song);
+
+    return section;
 };
 
 showSongs();
