@@ -1,7 +1,44 @@
 [
     {
         "song_name": "This is a Test Song",
+        "song_artist": "Test Songer",
         "song_genre": "Rock",
         "song_picture": "images/violin.svg"
+    },
+    {
+        "song_name": "Silver Soul",
+        "song_artist": "Echo Lake",
+        "song_genre": "Shoegaze/Dreampop",
+        "song_picture": "images/silver-soul.svg"
+    },
+    {
+        "song_name": "Broken Code",
+        "song_artist": "Hex Unit",
+        "song_genre": "IDM/Breakcore",
+        "song_picture": "images/broken-code.svg"
+    },
+    {
+        "song_name": "Overload",
+        "song_artist": "Sega Blue",
+        "song_genre": "Hyperpop/Bubblegum",
+        "song_picture": "images/overload.svg"
+    },
+    {
+        "song_name": "Midnight In Neon",
+        "song_artist": "Aurora Veil",
+        "song_genre": "I dunno",
+        "song_picture": "images/sotd.svg"
+    },
+    {
+        "song_name": "Neon Drift",
+        "song_artist": "Vapor Space",
+        "song_genre": "AmbientTechno",
+        "song_picture": "images/neon-drift.svg"
+    },
+    {
+        "song_name": "Weight of Water",
+        "song_artist": "Slow Drift",
+        "song_genre": "Slowcore/Sadcore",
+        "song_picture": "images/weight-of-water.svg"
     }
 ]
