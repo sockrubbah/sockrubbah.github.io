@@ -188,9 +188,9 @@ const showComminglePosts = (songs) => {
         reactions.classList.add("reactions");
 
         reactions.innerHTML = `
-            <button type="button">♡ <span>${song.post.likes}</span></button>
-            <button type="button">◯ <span>${song.post.comments}</span></button>
-            <button type="button">⇄ <span>${song.post.reposts}</span></button>
+            <button type="button"> ♡ <span>${song.post.likes}</span></button>
+            <button type="button"> ◯ <span>${song.post.comments}</span></button>
+            <button type="button"> ⇄ <span>${song.post.reposts}</span></button>
         `;
 
         article.append(header, postText, sharedTrack, reactions);
