@@ -527,11 +527,6 @@ main {
         padding-right: 20px;
     }
 
-    .browse-content {
-        padding-top: 55px;
-        flex-direction: column;
-    }
-
     .curations,
     .radar-column {
         width: 100%;

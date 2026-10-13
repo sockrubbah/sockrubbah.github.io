@@ -28,33 +28,28 @@
 
     <main>
         <section id="first-section">
-            <h1 id="main-text">
-                Discover and share the infinite sounds of the Music Multiverse.
-            </h1>
-            <p>Explore a vast library of songs, connect with fellow listeners, and find your next favorite track.</p>
-            <div id="searchbar">
-                <div id="search-symbol">🔍︎</div>
-                <input type="search" placeholder="Search for a song, artist, or playlist...">
+            <div id="hero-text">
+                <h1 id="main-text">
+                    Discover and share the infinite sounds of the Music Multiverse.
+                </h1>
+                <p>
+                    Explore a vast library of songs, connect with fellow listeners, and find your next favorite track.
+                </p>
+                <div id="searchbar">
+                    <div id="search-symbol">🔍︎</div>
+                    <input type="search" placeholder="Search for a song, artist, or playlist...">
+                </div>
             </div>
 
+            <iframe class="homepage-video" src="https://www.youtube.com/embed/VIDEO_ID" title="Featured music video"
+                allowfullscreen>
+            </iframe>
         </section>
         <section class="section-header">
             <p>SONG OF THE DAY</p>
         </section>
         <section class="homepage-content">
-            <div id="sotd-content">
-                <img class="song-icon" src="images/sotd.svg" alt="Song of the Day icon">
-                <div id="song-description">
-                    <h1>Midnight In Neon</h1>
-                    <span id="listener-count">by Aurora Veil</span>
-                    <p id="details">A hauntingly beautiful track that blends dreamy synth textures with ethereal vocals.
-                        "Midnight in Neon" captures that rare feeling of wandering through a city that's somehow both
-                        electric and serene - the kind of song that makes you feel less alone at 2am.</p>
-                    <div id="user-info"><img class="user-icon" src="images/user.svg" alt="User icon">
-                        <p>Uploaded by <span id="user-username">@stellarwaves</span></p>
-                    </div>
-                </div>
-            </div>
+            <div id="sotd-content"></div>
         </section>
         <section class="section-header">
             <p>EXPLORE GENRES</p>
@@ -127,6 +122,7 @@
             <button id="upload-first-track">Upload Your First Track!</button>
         </div>
         <script src="script.js"></script>
+        <script src="parsing_json.js"></script>
     </main>
 </body>
 

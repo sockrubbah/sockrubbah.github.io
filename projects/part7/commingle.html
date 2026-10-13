@@ -48,59 +48,7 @@
                     </div>
                 </form>
 
-                <article class="feed-post">
-                    <header class="post-header">
-                        <img src="images/nite-glow.svg" alt="Nite Glow profile picture">
-                        <div>
-                            <h2>@Nite_Glow</h2>
-                            <p>shared a record</p>
-                        </div>
-                        <span class="top-digger">☆ TOP DIGGER</span>
-                    </header>
-                    <p class="post-text">This new ambient techno piece from Tokyo's underground is stellar. Pure
-                        architectural synthesizer lines. Ideal for late-night code runs.</p>
-                    <section class="shared-track">
-                        <img src="images/neon-drift.svg" alt="Neon Drift cover art">
-                        <div>
-                            <h3>Neon Drift</h3>
-                            <p>Vapor Space</p>
-                            <span>Ambient Techno</span>
-                        </div>
-                        <button class="play-button" type="button">▷</button>
-                    </section>
-                    <footer class="reactions">
-                        <button type="button">♡ <span>42</span></button>
-                        <button type="button">◯ <span>9</span></button>
-                        <button type="button">⇄ <span>14</span></button>
-                    </footer>
-                </article>
-
-                <article class="feed-post">
-                    <header class="post-header">
-                        <img src="images/fuzz-lord.svg" alt="Fuzz Lord profile picture">
-                        <div>
-                            <h2>@Fuzz_Lord</h2>
-                            <p>shared a record</p>
-                        </div>
-                        <span class="top-digger">☆ TOP DIGGER</span>
-                    </header>
-                    <p class="post-text">The guitar tones on this slowcore track are heavier than a lead blanket.
-                        Fans of Codeine and Duster, look no further.</p>
-                    <section class="shared-track">
-                        <img src="images/weight-of-water.svg" alt="Weight of Water cover art">
-                        <div>
-                            <h3>Weight of Water</h3>
-                            <p>Slow Drift</p>
-                            <span>Slowcore / Sadcore</span>
-                        </div>
-                        <button class="play-button" type="button">▷</button>
-                    </section>
-                    <footer class="reactions">
-                        <button type="button">♡ <span>89</span></button>
-                        <button type="button">◯ <span>18</span></button>
-                        <button type="button">⇄ <span>31</span></button>
-                    </footer>
-                </article>
+                <div id="feed-posts"></div>
 
                 <section class="live-room">
                     <h2>Join Commingle Live</h2>
@@ -142,6 +90,7 @@
             </aside>
         </section>
         <script src="script.js"></script>
+        <script src="parsing_json.js"></script>
     </main>
 </body>
 

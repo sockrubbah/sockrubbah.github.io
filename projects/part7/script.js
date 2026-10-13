@@ -1,3 +1,4 @@
+//JS Header Wave Bars
 const waveform = document.getElementById("waveform");
 let bars;
 
@@ -44,7 +45,9 @@ document.addEventListener("mouseleave", () => {
         bar.style.height = "10px";
     });
 });
+//
 
+//Mobile Toggle Menu
 const menuButton = document.getElementById("menu-button");
 const navigationMenu = document.querySelector(".site-header nav");
 
@@ -57,3 +60,46 @@ menuButton.addEventListener("click", () => {
         menuButton.textContent = "☰";
     }
 });
+
+// Contact Button Modal
+const modal = document.querySelector("#contact-modal");
+const openButton = document.querySelector("#open-contact");
+const closeButton = document.querySelector("#close-contact");
+const form = document.querySelector("#contact-form");
+const feedback = document.querySelector("#form-feedback");
+
+if (openButton) {
+    openButton.onclick = () => modal.showModal();
+}
+
+if (closeButton) {
+    closeButton.onclick = () => modal.close();
+}
+
+if (form) {
+    form.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: new FormData(form)
+        });
+
+        const result = await response.json();
+
+        feedback.classList.remove("hidden", "success", "error");
+
+        if (result.success) {
+            feedback.textContent = "Thanks! Your message was sent successfully.";
+            feedback.classList.add("success");
+            form.reset();
+        } else {
+            feedback.textContent = "Your message could not be sent. Please try again.";
+            feedback.classList.add("error");
+        }
+
+        setTimeout(() => {
+            feedback.classList.add("hidden");
+        }, 3000);
+    };
+}
