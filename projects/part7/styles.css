@@ -299,7 +299,7 @@ img {
 }
 
 #left-commingle {
-    min-width: 0;
+    min-width: 250px;
     flex: 1;
 }
 
@@ -326,7 +326,6 @@ img {
     min-width: 0;
     overflow: hidden;
 }
-
 
 #right-commingle-header {
     display: flex;
