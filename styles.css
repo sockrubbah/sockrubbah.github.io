@@ -31,10 +31,13 @@ header {
 }
 
 footer {
-    text-align: left;
+    text-align: center;
     color: palegoldenrod;
     margin-top: 30px;
     font-size: 24px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }
 
 footer a {
